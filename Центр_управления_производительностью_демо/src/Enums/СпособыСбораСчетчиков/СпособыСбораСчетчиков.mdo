@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="944ee47d-5a17-4304-9074-f72e04e6fd7f">
+  <producedTypes>
+    <refType typeId="30ed42aa-3698-4f1f-982d-55bd5d15aa93" valueTypeId="68452b9c-8478-4cec-bede-7851ebc610f3"/>
+    <listType typeId="653b8ead-50c6-40ea-a5a3-f08a3fadc185" valueTypeId="fe9015e6-564a-4bda-bbbd-6dfa2858a716"/>
+    <managerType typeId="b7523400-703b-4ad2-8b35-83fdbcaa3fe0" valueTypeId="bb2fadbb-987a-4c94-aa50-98bd4a96ef05"/>
+  </producedTypes>
+  <name>СпособыСбораСчетчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы сбора счетчиков</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f3000d42-1829-4d6a-b02c-9502df1aa0e1">
+    <name>PDH</name>
+    <synonym>
+      <key>ru</key>
+      <value>PDH</value>
+    </synonym>
+    <comment>Библиотека Performance Data Helper</comment>
+  </enumValues>
+  <enumValues uuid="fbf53b48-59da-4bcf-b8cb-bf4f2d5e170a">
+    <name>АгентЦКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент ЦКК</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

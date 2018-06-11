@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d906d60-2c45-43d7-9169-618ea8147fb7">
+  <name>СхемаСловаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схема словаря</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://v8.1c.ru/v8/pmc-dictionary-instance</namespace>
+</mdclass:XDTOPackage>

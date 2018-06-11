@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76fd7422-18ef-471d-a9ef-68583d1461e3">
+  <producedTypes>
+    <refType typeId="fbd0b7cf-66bc-460a-9070-3b3b9e51d67a" valueTypeId="b2046b08-ef0c-4923-8bbf-fa4eb9ab8509"/>
+    <listType typeId="2442c863-2d7f-4270-848f-7c4bb10ea19a" valueTypeId="1b19e919-4305-42c6-95f1-a9dde065fda6"/>
+    <managerType typeId="37bfc421-e56b-4c8b-8603-1d1da7a849ce" valueTypeId="327e0c23-e329-4f34-994f-31b91d55ee6d"/>
+  </producedTypes>
+  <name>ВидыГранулярностиБлокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды гранулярности блокировок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9d0efdd0-aedd-4486-be6c-a361630844fd">
+    <name>БазаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>База данных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="57da657a-f279-440f-a82f-2b876941592a">
+    <name>ИдентификаторСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор строки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="783a6357-b831-4138-8a8d-86f39d128d3c">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="70b66409-5a96-4149-bcdd-db5cf65ef43a">
+    <name>Неизвестно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неизвестно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="66b994a7-76e9-40fd-9cb4-4f046ce5a97f">
+    <name>Страница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страница</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8be52a1e-e418-4d93-9b14-88b78216e772">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a71e5e26-9f93-4109-8988-e7780c04f614">
+    <name>Таблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="36bf9714-f3d5-4552-9e1c-2463e717eafd">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b618f95d-425f-400e-80a3-44c3e4ae9ede">
+    <name>Экстент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экстент</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

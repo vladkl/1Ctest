@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d75afd2-e97d-43b4-8bcd-19ec0ef1dcd2">
+  <name>ВыполнениеЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение запросов</value>
+  </synonym>
+  <comment></comment>
+  <templateType>DataCompositionSchema</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,10 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/v8/pmc-dictionary-instance">
+	<property xmlns:d2p1="http://v8.1c.ru/v8/pmc-dictionary-instance" name="dictionary" type="d2p1:Dictionary"/>
+	<objectType name="Dictionary">
+		<property xmlns:d3p1="http://v8.1c.ru/v8/pmc-dictionary-instance" name="string" type="d3p1:String" upperBound="-1"/>
+	</objectType>
+	<objectType name="String" ordered="false" sequenced="true">
+		<property name="name" type="xsd:string" lowerBound="1" form="Attribute"/>
+		<property name="ru" type="xsd:string"/>
+	</objectType>
+</package>

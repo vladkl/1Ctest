@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8ee56ab-44a7-4a4e-8546-a5d748c0515b">
+  <producedTypes>
+    <selectionType typeId="3fbe0c6c-6c63-4434-a15e-ddb415b07191" valueTypeId="b25a7c9e-72fe-4fd3-9292-3d03e52c24b2"/>
+    <listType typeId="e3cf34d6-8463-42a6-8e42-8cefe41dc940" valueTypeId="7cecb756-fe71-4f33-90fc-9736bdb0621c"/>
+    <managerType typeId="4f5cd414-af43-4aa3-af8f-be8b2b73d616" valueTypeId="cb316061-5aab-4c53-bd4e-63047da378e5"/>
+    <recordSetType typeId="5a0531e0-9d38-4a51-994a-d89ab79c1bbb" valueTypeId="ee58302c-7ef3-416c-99a9-ce4aabfe66e3"/>
+    <recordKeyType typeId="613957dc-a6fd-47e5-9e77-778e62fce8a3" valueTypeId="7c2d4e77-27e8-47a6-ae24-1a8ac0d4747c"/>
+    <recordType typeId="bbf34adb-f30a-42c2-bd13-810e129b8319" valueTypeId="a1315870-8158-449d-b5ee-f160a92581f8"/>
+    <recordManagerType typeId="6520a0d4-776c-41c8-99e4-d6ea3edb0568" valueTypeId="e80f0141-3656-437f-a5e1-dccce88440ff"/>
+  </producedTypes>
+  <name>СовместимостьБлокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Совместимость блокировок</value>
+  </synonym>
+  <comment></comment>
+  <resources uuid="580e34bb-bac3-45f0-b6d0-4066af91203c">
+    <name>Совместимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совместимость</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыСовместимостиБлокировок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ac90d9a3-01f9-440d-b49c-ea2164879700">
+    <name>ТипСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип СУБД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыСУБД</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2de4cbec-d93d-4af9-9830-6bd11e2de55d">
+    <name>УстановленнаяБлокировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установленная блокировка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.РежимыБлокировок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2e5e3b29-1f0e-4a12-ba2c-44663d8f61e7">
+    <name>УстанавливаемаяБлокировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливаемая блокировка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.РежимыБлокировок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

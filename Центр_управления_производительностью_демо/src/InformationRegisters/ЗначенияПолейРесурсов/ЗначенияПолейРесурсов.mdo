@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="677aef2d-e3d2-494e-9759-a6aa1cd1dccd">
+  <producedTypes>
+    <selectionType typeId="2d53269c-2211-463c-a7a6-90034fa7f6fe" valueTypeId="785db740-c538-4935-b841-d24658e95d27"/>
+    <listType typeId="75ddc350-594e-4ada-b639-43f020904f45" valueTypeId="a33561d7-3b87-4669-b959-3e6102a3aab0"/>
+    <managerType typeId="67102117-ed57-4237-b1a6-ae8797ba4b8e" valueTypeId="feb2f8db-c426-4b74-95f6-c50803fc4b1f"/>
+    <recordSetType typeId="69c67e29-2d04-4ab0-9dda-076f7bccea7a" valueTypeId="9b98de9f-bf57-4df6-a1a8-294fc674d189"/>
+    <recordKeyType typeId="72450744-5460-4549-9070-0191f598bb92" valueTypeId="53eda114-d2b4-47c4-b9ec-79cac9f6fe88"/>
+    <recordType typeId="4fe88be1-f543-4dd3-9fab-4c67709b3de1" valueTypeId="f5808e8c-cda3-4f8b-a346-d9ffae827dcf"/>
+    <recordManagerType typeId="43ce2b58-a63d-4ce3-bc76-e8754f3893af" valueTypeId="7c4b1bd5-cdc4-4396-b1c2-a23a45765894"/>
+  </producedTypes>
+  <name>ЗначенияПолейРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения полей ресурсов</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="9d483579-f7ac-4997-a367-025df680f99e">
+    <name>ЭтоДиапазон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это диапазон</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cfc4f4ea-200e-43ed-8eb7-f8892a25d59e">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a2a8ace2-a52e-4ba9-a31b-0f050efc6e7a">
+    <name>Значение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение1</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>32</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <resources uuid="d760f094-c093-4b6e-81dc-7a7af8a23327">
+    <name>Значение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение2</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>32</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4aec3420-c75f-4909-badd-96e53571b90f">
+    <name>РежимБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.РежимыБлокировок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a0c8f9f3-b833-4502-88cc-2e9c2227516c">
+    <name>ИмяРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя ресурса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b7f1243d-eed8-4446-a867-17b85f0c810a">
+    <name>ИмяРесурсаПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя ресурса полное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1ebe71c7-6b57-41ec-a660-c340c1d37da3">
+    <name>ЭтоРесурсВзаимоблокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это ресурс взаимоблокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="094b7b1e-62c2-4f18-a330-934daa49cf20">
+    <name>Соединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соединение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9cda22f-fa02-4fa2-ad11-9d00bda5df2e">
+    <name>МоментВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент времени</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cd1d384c-fcd3-4ada-aac1-1c30b2d961f0">
+    <name>ИмяПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя поля</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7cb820e1-d942-4a29-9a2a-f64b3f22e569">
+    <name>НомерБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

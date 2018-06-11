@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7ac4a7c-9bb3-4f2c-b402-054dd452124a">
+  <name>ВКонец</name>
+  <synonym>
+    <key>ru</key>
+    <value>В конец</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>1</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

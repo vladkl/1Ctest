@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efcdf482-f746-4803-a0c9-2781cfd06552">
+  <name>Среднее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Среднее</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>12</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

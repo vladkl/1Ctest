@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19b86848-ddf4-47e3-af55-9eede39e5301">
+  <producedTypes>
+    <refType typeId="7c8327e0-cd06-4fb4-bd47-aaa2eae0d8e1" valueTypeId="bb84dec7-773b-4c36-9560-583f006a5583"/>
+    <listType typeId="98974327-1746-4825-acf1-cfa29a41b3c4" valueTypeId="2c1a9177-6c98-42c3-9de0-7a5dfd2ea3e7"/>
+    <managerType typeId="74f8d12e-4276-4139-818c-ba7f33bbeefa" valueTypeId="e68b8eea-6a06-40f4-8ae5-e02cbf1f19ac"/>
+  </producedTypes>
+  <name>ПроцессыАнализа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы анализа</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6b3aba3a-f6a3-46c6-bf1f-b6ecb0e1270f">
+    <name>ПолучениеТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение ТЖ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="18cfa41e-b3fb-468e-88b9-99ba95191b39">
+    <name>ПолучениеТрассировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение трассировки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="de021850-335c-47dd-b11d-ce5a3761a392">
+    <name>ПолучениеСтруктурыМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение структуры метаданных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

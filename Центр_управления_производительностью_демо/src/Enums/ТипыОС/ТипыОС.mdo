@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cccb6609-a0f1-460d-8415-f7dfebf2dc6d">
+  <producedTypes>
+    <refType typeId="a19d1eba-c8d1-4710-85b7-2d6f516883c1" valueTypeId="d24d88ba-ca85-4165-b238-e5a408913f9f"/>
+    <listType typeId="c1fed238-837b-41e4-8098-016798c4e629" valueTypeId="b4613121-dcc7-4542-863e-a036ff3c3f94"/>
+    <managerType typeId="0190da2c-99e0-4a32-9532-0dda7426905c" valueTypeId="e2902585-76ae-4a8b-9afe-10873a06c429"/>
+  </producedTypes>
+  <name>ТипыОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ОС</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cd40b0b6-9980-4b44-901b-b28d7a4f3ebf">
+    <name>Linux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Linux</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="acad7912-c822-4ccf-895f-84052824e83a">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

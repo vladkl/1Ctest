@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef55fb9d-098c-46bc-b229-7c3eec064af5">
+  <producedTypes>
+    <refType typeId="91d74453-2cb3-44c8-9184-dde6f582e602" valueTypeId="18f51266-559a-42e2-a2eb-a5a0bb783b17"/>
+    <listType typeId="9ad112bc-a679-48bd-a105-63b13fd0b69c" valueTypeId="94ca5198-b022-4cba-b687-1eb747aca134"/>
+    <managerType typeId="0e4ba9f9-c92b-41c9-a8ae-329a51b525c8" valueTypeId="ec509201-e827-41e3-bb11-da24041de5eb"/>
+  </producedTypes>
+  <name>РежимыУправленияБлокировкойДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы управления блокировкой данных</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b8a137ee-8b86-4140-b23b-47258e759e2e">
+    <name>Автоматический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматический</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="80f20472-7627-49d4-bbdb-34e77bbc4f53">
+    <name>Управляемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управляемый</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f6d22bdd-25e0-4356-9a36-4cfadef4dc6f">
+    <name>АвтоматическийИУправляемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматический и управляемый</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

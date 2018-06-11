@@ -1,0 +1,257 @@
+﻿<?xml version="1.0"?>
+<o:counterOptions
+  xmlns:o="http://v8.1c.ru/v8/pmc-counter-options-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <o:group name="Запросы">
+    <o:counter name="СуммарноеВремяВыполненияЗапросов" code="_02_QTS___" unit="Секунда" interactive="true" scale="1" r="98" g="198" b="77" lineType="Сплошная" lineWeight="3" gy_bound="1" yr_bound="20" type="1c">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="МаксимальноеВремяВыполненияЗапроса" code="_03_QTM___" unit="Секунда" interactive="true" scale="1" r="98" g="198" b="77" lineType="Пунктир" lineWeight="3" gy_bound="1" yr_bound="20" type="1c">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="СреднееВремяВыполненияЗапроса" code="_04_QTA___" unit="Секунда" interactive="true" scale="1" r="98" g="198" b="77" lineType="Точечная" lineWeight="3" gy_bound="1" yr_bound="5" type="1c">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="КоличествоВыполняемыхЗапросов" code="_05_QC____" unit="Штука" interactive="true" scale="1" r="98" g="198" b="77" lineType="ПунктирТочка" lineWeight="3" gy_bound="50" yr_bound="100" type="1c">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+  </o:group>
+    <o:group name="СерверныеВызовы">
+    <o:counter name="СуммарноеВремяВыполненияСерверныхВызовов" code="_36_СTS___" unit="Секунда" interactive="true" scale="1" r="98" g="8" b="77" lineType="Сплошная" lineWeight="3" gy_bound="1" yr_bound="5" type="1c">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="МаксимальноеВремяВыполненияСерверногоВызова" code="_37_СTM___" unit="Секунда" interactive="true" scale="1" r="98" g="8" b="77" lineType="Пунктир" lineWeight="3" gy_bound="1" yr_bound="5" type="1c">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="СреднееВремяВыполненияСерверногоВызова" code="_38_CTA___" unit="Секунда" interactive="true" scale="1" r="98" g="8" b="77" lineType="Точечная" lineWeight="3" gy_bound="1" yr_bound="5" type="1c">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="КоличествоВыполняемыхСерверныхВызовов" code="_39_CC____" unit="Штука" interactive="true" scale="1" r="98" g="8" b="77" lineType="ПунктирТочка" lineWeight="3" gy_bound="50" yr_bound="100" type="1c">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+  </o:group>
+  <o:group name="ОжиданияНаБлокировках">
+    <o:group name="ВсеБлокировки">
+      <o:counter name="СуммарноеВремяОжиданияНаБлокировкахСУБДи1С" code="_08_WATSDP" unit="Секунда" interactive="true" scale="1" r="77" g="130" b="198" lineType="Сплошная" lineWeight="3" gy_bound="1" yr_bound="10"  type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="МаксимальноеВремяОжиданияНаБлокировкеСУБДи1С" code="_09_WATMDP" unit="Секунда" interactive="true" scale="1" r="77" g="130" b="198" lineType="Пунктир" lineWeight="3" gy_bound="1" yr_bound="10" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="СреднееВремяОжиданияНаБлокировкеСУБДи1С" code="_10_WATADP" unit="Секунда" interactive="true" scale="1" r="77" g="130" b="198" lineType="Точечная" lineWeight="3" gy_bound="1" yr_bound="3" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="КоличествоТекущихОжиданийНаБлокировкахСУБДи1С" code="_11_WACDP_" unit="Штука" interactive="true" scale="1" r="77" g="130" b="198" lineType="ПунктирТочка" lineWeight="3" gy_bound="1" yr_bound="5" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+    </o:group>
+    <o:group name="ТолькоБлокировкиСУБД">
+      <o:counter name="СуммарноеВремяОжиданияНаБлокировкахСУБД" code="_13_WDTSD_" unit="Секунда" interactive="true" scale="1" r="77" g="193" b="198" lineType="Сплошная" lineWeight="3" gy_bound="1" yr_bound="10" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="МаксимальноеВремяОжиданияНаБлокировкеСУБД" code="_14_WDTMD_" unit="Секунда" interactive="true" scale="1" r="77" g="193" b="198" lineType="Пунктир" lineWeight="3" gy_bound="1" yr_bound="10" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="СреднееВремяОжиданияНаБлокировкеСУБД" code="_15_WDTAD_" unit="Секунда" interactive="true" scale="1" r="77" g="193" b="198" lineType="Точечная" lineWeight="3" gy_bound="1" yr_bound="3" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="КоличествоТекущихОжиданийНаБлокировкахСУБД" code="_16_WDCD__" unit="Штука" interactive="true" scale="1" r="77" g="193" b="198" lineType="ПунктирТочка" lineWeight="3" gy_bound="1" yr_bound="5" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="КоличествоТаймаутов" code="_17_WDTC__" unit="ШтукВСекунду" interactive="true" scale="1" r="198" g="166" b="77" lineType="Пунктир" lineWeight="3" gy_bound="0" yr_bound="1" type="os_to">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="90" os="Windows" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+    </o:group>
+    <o:group name="ТолькоБлокировки1С">
+      <o:counter name="СуммарноеВремяОжиданияНаБлокировках1С" code="_19_WPTSP_" unit="Секунда" interactive="true" scale="1" r="124" g="77" b="198" lineType="Сплошная" lineWeight="3" gy_bound="1" yr_bound="10" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="МаксимальноеВремяОжиданияНаБлокировке1С" code="_20_WPTMP_" unit="Секунда" interactive="true" scale="1" r="124" g="77" b="198" lineType="Пунктир" lineWeight="3" gy_bound="1" yr_bound="10" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="СреднееВремяОжиданияНаБлокировке1С" code="_21_WPTAP_" unit="Секунда" interactive="true" scale="1" r="124" g="77" b="198" lineType="Точечная" lineWeight="3" gy_bound="1" yr_bound="3" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+      <o:counter name="КоличествоТекущихОжиданийНаБлокировках1С" code="_22_WPCP__" unit="Штука" interactive="true" scale="1" r="124" g="77" b="198" lineType="ПунктирТочка" lineWeight="3" gy_bound="1" yr_bound="5" type="1c">
+        <o:support>
+          <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+          <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        </o:support>
+      </o:counter>
+    </o:group>
+  </o:group>
+  <o:group name="Взаимоблокировки">
+    <o:counter name="КоличествоВзаимоблокировок" code="_24_DLC___" unit="ШтукВСекунду" interactive="true" scale="1" r="198" g="166" b="77" lineType="Сплошная" lineWeight="3" gy_bound="0" yr_bound="1" type="os_dl">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" os="Windows" dlm_auto="true" dlm_mixed="true" dlm_managed="true"/>
+      </o:support>
+    </o:counter>
+  </o:group>
+  <o:group name="Анализ">
+    <o:counter name="АнализЗапросов" code="_26_AQ____" unit="Секунда" interactive="false" scale="1" r="198" g="88" b="77" lineType="Точечная" lineWeight="3" gy_bound="1" yr_bound="5" type="query">
+      <o:parameters>
+        <o:parameter name="Минимальная длительность запроса (сек.)" value="2" type="Integer" />
+        <o:parameter name="Весовой коэффициент" value="1" type="Integer" />
+        <o:parameter name="Получать планы запросов" value="true" type="Boolean" />
+      </o:parameters>
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="АнализОжиданийНаБлокировках" code="_27_AW____" unit="Секунда" interactive="false" scale="1" r="198" g="88" b="77" lineType="Пунктир" lineWeight="3" gy_bound="1" yr_bound="5" type="wait">
+      <o:parameters>
+        <o:parameter name="Весовой коэффициент" value="1" type="Integer" />
+        <o:parameter name="Получать планы запросов" value="true" type="Boolean" />
+      </o:parameters>
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="false" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="false" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="АнализВзаимоблокировок" code="_29_ADL___" unit="Штука" interactive="false" scale="1" r="198" g="88" b="77" lineType="Сплошная" lineWeight="3" gy_bound="0" yr_bound="1" type="deadlock">
+      <o:parameters>
+        <o:parameter name="Весовой коэффициент" value="20" type="Integer" />
+        <o:parameter name="Получать планы запросов" value="true" type="Boolean" />
+      </o:parameters>
+      <o:support>
+        <o:dbms type="MSSQLServer" version="90" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="АнализВзаимоблокировок1С" code="_32_ADL_1C" unit="Штука" interactive="false" scale="1" r="198" g="88" b="77" lineType="Сплошная" lineWeight="3" gy_bound="0" yr_bound="1" type="deadlock">
+      <o:parameters>
+        <o:parameter name="Весовой коэффициент" value="20" type="Integer" />
+        <o:parameter name="Получать планы запросов" value="false" type="Boolean" />
+      </o:parameters>
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="false" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="false" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="false" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="false" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+    <o:counter name="АнализСерверныхВызовов" code="_33_ASR___" unit="Секунда" interactive="false" scale="1" r="198" g="88" b="77" lineType="Точечная" lineWeight="3" gy_bound="1" yr_bound="5" type="call">
+      <o:parameters>
+        <o:parameter name="Минимальная длительность вызова (сек.)" value="2" type="Integer" />
+        <o:parameter name="Весовой коэффициент" value="1" type="Integer" />
+      </o:parameters>
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="IBMDB2" version="91" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="PostgreSQL" version="82" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+        <o:dbms type="OracleDatabase" version="10" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+  </o:group>
+  <o:group name="Качество">
+    <o:counter name="ПроблемыСПараллельностьюРаботы" code="_31_QPP___" unit="%" interactive="true" scale="1" r="159" g="176" b="198" lineType="Сплошная" lineWeight="3" gy_bound="5" yr_bound="30" type="1c">
+      <o:support>
+        <o:dbms type="MSSQLServer" version="80" dlm_auto="true" dlm_mixed="true" dlm_managed="true" />
+      </o:support>
+    </o:counter>
+  </o:group>
+</o:counterOptions>

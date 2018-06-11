@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca62e53f-7d24-431f-93fb-0291110846b3">
+  <name>СхемаТехнологическогоЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схема технологического журнала</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://v8.1c.ru/v8/tech-log-instance</namespace>
+</mdclass:XDTOPackage>

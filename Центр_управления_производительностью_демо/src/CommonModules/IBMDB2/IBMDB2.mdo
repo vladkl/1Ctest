@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="536eb2d0-ec1e-4e6c-8fa3-54f3b5718fa8">
+  <name>IBMDB2</name>
+  <synonym>
+    <key>ru</key>
+    <value>IBMDB2</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

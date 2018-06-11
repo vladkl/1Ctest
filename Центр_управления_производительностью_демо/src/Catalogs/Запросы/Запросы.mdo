@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c307a36e-7469-4709-b0ce-07be9c115bf3">
+  <producedTypes>
+    <objectType typeId="fdefdfd6-e3e0-45f8-a109-e2a1ef14c5bc" valueTypeId="e1600b2e-90b1-4772-8cb4-900a145e927e"/>
+    <refType typeId="5a689f4d-b771-41e4-826a-6579eee99de5" valueTypeId="fc08fbd8-aa0b-4389-ac14-a16067555306"/>
+    <selectionType typeId="6a0c3cdf-a3db-4251-94ec-d264e1f0c5c0" valueTypeId="8efe1927-93c7-4f18-beb2-a23e6e733805"/>
+    <listType typeId="ac65efbf-9553-4e27-9113-ba51b6e94256" valueTypeId="6a67d504-bdd4-408b-9b80-3455d0200166"/>
+    <managerType typeId="c46c0055-9006-4cf1-a551-414b9d989880" valueTypeId="414260c9-f31a-4e90-8db1-6eea70fe61f6"/>
+  </producedTypes>
+  <name>Запросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.Запросы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Запросы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ИнформационныеБазы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Запросы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3b02beb3-ecba-411c-9dc5-f40aae114041">
+    <name>СтрокаХеша</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка хеша</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d792935-a673-4fda-941a-644826c43e4a">
+    <name>Хеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bd63e562-ad5f-4844-a44b-1fab4923cb6f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

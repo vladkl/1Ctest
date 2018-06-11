@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="203562d7-2c99-4f1e-a2bc-b3a67a187656">
+  <producedTypes>
+    <selectionType typeId="db6a21f1-5ac5-4f7f-8625-65575c5d48a8" valueTypeId="fa9e2608-cf34-4ee7-b408-02db86d167ce"/>
+    <listType typeId="9e02b404-3d2a-4dd4-8e2d-431b4a2c697a" valueTypeId="4024071c-9c18-4850-88b9-63930eadc5bb"/>
+    <managerType typeId="7bee2b25-8027-4d0f-8eed-01490fc41e31" valueTypeId="be565a07-3a43-4812-ad69-866b465ada21"/>
+    <recordSetType typeId="39ac77b9-956f-4674-a44d-a597dc95f320" valueTypeId="80b91e02-227d-4db1-ae87-4bdc8801ab9d"/>
+    <recordKeyType typeId="48da223d-8886-43fd-bcdf-cc72e5255d8d" valueTypeId="707334f1-364a-4595-8e79-3a1bf728034f"/>
+    <recordType typeId="6fff8175-ebc5-44c7-91f1-95865af2ed2a" valueTypeId="426f7b64-69df-406b-bdc0-d11e93129622"/>
+    <recordManagerType typeId="7982f493-0987-4df9-a37c-7c343c1fba7b" valueTypeId="07e6c8a5-34ef-4e86-abe2-0234742a5323"/>
+  </producedTypes>
+  <name>КомандыАгентаЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды агента ЦКК</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КомандыАгентаЦКК.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="de389bab-63a6-43d8-9b35-51dc87edaa12">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="93372880-fc6e-473d-888b-c4abdab0d47b">
+    <name>АгентЦКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент ЦКК</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.АгентыЦКК</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+  <dimensions uuid="5cbde749-44a1-469e-98e0-d0fe27c3623e">
+    <name>ТипКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип команды</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыКомандАгентаЦКК</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d49ad5fe-63f9-4cab-b46e-6ac233234348">
+    <name>СтатусКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус команды</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СтатусыКомандАгентаЦКК</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="601d883b-43df-4184-a4f6-46e2249ef504">
+    <name>УникальныйИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор записи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="de45fc72-272c-44dc-835e-d7ca331c9dc5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f662dada-9a36-4129-87ad-cd34cc08ab74">
+  <producedTypes>
+    <managerType typeId="3965e55e-c56a-4e5d-af32-5ccb247a389e" valueTypeId="bf837223-344d-417e-a633-b96eae23e390"/>
+    <valueManagerType typeId="07df8102-6ede-48de-9754-f4187f6f8bbe" valueTypeId="8c2dcb70-c02b-48a6-a712-cdd1e88ad7e1"/>
+  </producedTypes>
+  <name>ПоказыватьОтладочныеСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать отладочные сообщения</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

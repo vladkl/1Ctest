@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83dba0a1-d9e1-4c7b-b898-c3ad56858919">
+  <producedTypes>
+    <refType typeId="7e0f16a8-870c-4a51-b385-8b35a704a3a3" valueTypeId="22190ce1-c360-4583-9091-70cf7f714598"/>
+    <listType typeId="e04368db-312b-4b7b-964f-ccc1f9b00ef9" valueTypeId="3ffade65-20af-42d6-bd88-e7ade6e1532f"/>
+    <managerType typeId="9831e2fb-32af-43e7-a07a-5ce137e90d13" valueTypeId="8ef78eaf-63e9-49f9-bf99-5fc2e6ffb2d6"/>
+  </producedTypes>
+  <name>СпособыАутентификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы аутентификации</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="66dcf4ff-cc24-481e-be48-b042b65dd0ec">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e54f2a24-9bc1-468f-858a-9f4e740f5dd5">
+    <name>ПоЛогинуИПаролю</name>
+    <synonym>
+      <key>ru</key>
+      <value>По логину и паролю</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

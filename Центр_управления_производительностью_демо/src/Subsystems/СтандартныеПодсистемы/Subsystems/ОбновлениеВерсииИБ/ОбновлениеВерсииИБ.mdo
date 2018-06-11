@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66672b20-a1a9-4eee-91e9-f1e5fec29096">
+  <name>ОбновлениеВерсииИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление версии ИБ</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonModule.ОбновлениеИнформационнойБазы</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыКлиент</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыПереопределяемый</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп</content>
+  <content>InformationRegister.ВерсииПодсистем</content>
+  <content>DataProcessor.РезультатыОбновленияПрограммы</content>
+  <content>Constant.СведенияОбОбновленииИБ</content>
+  <content>ScheduledJob.ОтложенноеОбновлениеИБ</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыСлужебный</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера</content>
+  <content>SessionParameter.ПараметрыОбработчикаОбновления</content>
+  <content>Constant.ОтложенноеОбновлениеЗавершеноУспешно</content>
+  <content>SessionParameter.ВыполняетсяОбновлениеИБ</content>
+  <content>CommonForm.ОписаниеИзмененийПрограммы</content>
+  <content>CommonTemplate.ПолучениеДереваОбработчиковОбновления</content>
+  <content>Constant.СведенияОБлокируемыхОбъектах</content>
+  <content>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</content>
+  <content>Report.ПрогрессОтложенногоОбновления</content>
+  <content>ExchangePlan.ОбновлениеИнформационнойБазы</content>
+  <content>FunctionalOption.ОтложенноеОбновлениеЗавершеноУспешно</content>
+  <content>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</content>
+  <content>FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыГлобальный</content>
+  <content>CommonTemplate.ОписаниеИзмененийСистемы</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97a160de-60ab-412e-86ee-beebb2c1354c">
+  <producedTypes>
+    <refType typeId="d003887b-6484-4815-8d86-b2c4908e3e67" valueTypeId="c2b77c4f-7230-4cc8-bb90-99efe464f907"/>
+    <listType typeId="886ab384-29c8-4438-a0e3-7e88d584d11b" valueTypeId="dde5dd80-9502-4777-9e37-acf67f3fcf6b"/>
+    <managerType typeId="f34a0119-57ad-42fa-87b7-50de620797fd" valueTypeId="e5e715e2-2b7f-48c8-9f82-c29aee36330c"/>
+  </producedTypes>
+  <name>ТипыБлокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы блокировок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1cee26e6-9490-4325-9289-3bcae8717857">
+    <name>БлокировкаСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка СУБД</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a2445688-c4ec-4b6c-8a08-f3bda63f43f2">
+    <name>Блокировка1СПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка 1С:Предприятия</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

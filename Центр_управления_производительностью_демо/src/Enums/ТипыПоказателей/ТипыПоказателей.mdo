@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd63dfab-296d-433d-a630-71dce8ec7d7c">
+  <producedTypes>
+    <refType typeId="3b06023a-b9a3-4c4d-a0e4-f364515cb524" valueTypeId="de75cead-54da-45ee-9671-b85319eb507f"/>
+    <listType typeId="7291ff3d-1108-4968-9474-b9fbd6b43a2b" valueTypeId="1e9a183d-968e-4c12-a9aa-b566e1b84334"/>
+    <managerType typeId="226b29be-0a5f-483b-a9ec-d9a0a362b1a6" valueTypeId="c1b5ad30-5ac1-4dd7-a18c-dd0cc926dd8a"/>
+  </producedTypes>
+  <name>ТипыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы показателей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="02015b6b-035b-4196-9bf6-80658f7cf7c0">
+    <name>АнализВзаимоблокировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ взаимоблокировок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2afdd2f5-ae07-4a9a-b8a9-53e67a208b31">
+    <name>АнализГранулярностиБлокировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ гранулярности блокировок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ad9b87ee-3891-4909-857b-c981c6399505">
+    <name>АнализЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ запросов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="efd34d5b-3377-4d37-93b0-a18d64140f98">
+    <name>АнализОжиданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ ожиданий на блокировках</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ff4f995d-dad6-442c-a4d4-9bc2774d63b7">
+    <name>АнализСерверныхВызовов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ серверных вызовов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c2f32af2-9f2d-4678-9661-0e1879ac3ad8">
+    <name>ОСВзаимоблокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимоблокировки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b9aefa38-851c-4599-8621-89df58c5a1b7">
+    <name>ОСТаймауты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймауты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7ea97631-0dc7-46ee-bd58-95eb5996e699">
+    <name>Предприятие1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c2e7edde-af0c-4e69-8246-20386d193a15">
+    <name>ПроизвольныеСчетчикиОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольные счетчики ОС</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89434eb3-b8dd-4f2d-994d-8da1e32e65d8">
+  <name>MSSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>MSSQL</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+</mdclass:CommonModule>

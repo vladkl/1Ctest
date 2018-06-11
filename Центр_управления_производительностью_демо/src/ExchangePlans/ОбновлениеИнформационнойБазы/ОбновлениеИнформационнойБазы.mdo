@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79c02ad6-8d45-416b-aad3-3d04d7b57d65" thisNode="bb99d1be-a1fe-4508-ba55-8ad6726be020">
+  <producedTypes>
+    <objectType typeId="0fcf7bcf-823d-44fc-b42e-3e64ad8b0b73" valueTypeId="e1052507-e6fa-44d2-87ed-45be8d4c9cf3"/>
+    <refType typeId="b189473f-dcfe-4f1e-ae9a-9be2463ea7fe" valueTypeId="51ea2ffb-3aac-4e50-b4d6-1c9ba9e91f3a"/>
+    <selectionType typeId="d37a02a4-7b8a-4ca0-b6e5-810834eca0ce" valueTypeId="7ff90d82-7024-4e7e-b6d2-04c46f4c5aa3"/>
+    <listType typeId="4593b4d5-d499-4125-a3a8-40d004cae572" valueTypeId="d0840752-14d2-49a6-838d-347823da32b0"/>
+    <managerType typeId="881c86e6-40c0-40bb-b6fe-e793c009fe4c" valueTypeId="12c6baa0-a4da-452e-8bf8-0e9b26b876f0"/>
+  </producedTypes>
+  <name>ОбновлениеИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление информационной базы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбновлениеИнформационнойБазы.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбновлениеИнформационнойБазы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Обрабатываемый объект</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Обрабатываемые объекты</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.ЖурналПоказателей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрофилиКлючевыхОпераций</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВиновникиБлокировок</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗамерыВремени</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Показатели</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПакетыИнформацииПриЗапуске</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеТЖ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПланыЗапросов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СчетчикиОжиданий</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.Взаимоблокировка</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлючевыеОперации</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СообщенияОбмена</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СостояниеАнализа</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВыполнениеЗапроса</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияПолейРесурсов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СчетчикиПроизводительности</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ИнформационныеБазы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЯзыкиОС</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ОжиданиеНаБлокировке</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ТекстыЗапросов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтрокиКонтекста</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.БезопасноеХранилище</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.Закладки</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПользователиИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Контексты</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.Блокировка</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СовместимостьБлокировок</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПараметрыРаботыПрограммы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Запросы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ГрафыВзаимоблокировок1С</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИсточникиАнализаТЖ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Команды</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗамерыВремениТехнологические</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ГрафыВзаимоблокировок</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.События</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ТехнологическийЖурнал</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВыполнениеКода</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИдентификаторыАктивныхСеансов</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.Замер</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Сценарии</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Ресурсы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВерсииПодсистем</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РесурсыАнализаТЖ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеТрассировок</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d274704d-4f04-441a-892c-5926fa67bb2d">
+    <name>Очередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очередь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:ExchangePlan>

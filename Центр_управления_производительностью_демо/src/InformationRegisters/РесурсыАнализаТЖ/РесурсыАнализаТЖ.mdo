@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdc82ec9-c52e-4cfa-a68f-cae11adea6e1">
+  <producedTypes>
+    <selectionType typeId="510d4653-fbf8-435d-b9d3-355963d0e46a" valueTypeId="e9d2a314-c2e5-47db-a620-c3d106b36f5d"/>
+    <listType typeId="40949c24-54ca-4dfc-8be0-d106e48c2e07" valueTypeId="c11e3cee-3ec3-4c23-ac0f-d135cc9bd23a"/>
+    <managerType typeId="e3dd6b35-3bb5-4acb-b84b-47d32e069fef" valueTypeId="1519aefa-c3bc-4119-96fe-4fafb6a8e0bb"/>
+    <recordSetType typeId="cc1f7a0d-ccf5-49bf-b24e-1beeaa172580" valueTypeId="a5114296-34d9-4b45-913e-ada72071238a"/>
+    <recordKeyType typeId="c4f554af-4d48-482b-8df6-f1b452056920" valueTypeId="96870d70-7a7a-4bda-ae59-c905a0a90a47"/>
+    <recordType typeId="a9ec93dd-2845-4eb2-ae40-9dbaf2f8bd41" valueTypeId="a4459676-38b0-4d10-8c4a-a3ed9a5bc5fd"/>
+    <recordManagerType typeId="7d8fcbb7-80ac-4dc4-a4c2-bfe9e8b14e37" valueTypeId="ad3cb515-9b1e-4074-9709-2dc7ae663539"/>
+  </producedTypes>
+  <name>РесурсыАнализаТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ресурсы анализа технологического журнала</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dimensions uuid="21ccebf5-2d04-4245-a284-dad441e79daa">
+    <name>СоединениеЖертвы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соединение жертвы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f640f54e-df7d-4e43-96a0-e3a038d10f45">
+    <name>МоментВремениЖертвы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент времени жертвы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fcb07d77-d0ad-46d8-baa2-72dde2018748">
+    <name>ИмяРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя ресурса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d08a8718-50be-4366-be7d-081be55e296c">
+    <name>НомерВзаимоблокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер взаимоблокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4b8be9a5-b0ee-4130-b42a-502651269833">
+    <name>НомерБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9b401672-a200-4691-886c-9adbba98068e">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Замер</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2dc7fd60-185e-49ca-9c4e-10ad53bdd355">
+    <name>РежимБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.РежимыБлокировок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="678f699e-e818-4051-a4f7-ad98956ec62b">
+  <producedTypes>
+    <selectionType typeId="68ab9688-38e3-45a8-8f5b-757a9953edcc" valueTypeId="ca94dc96-7aab-4ca8-8e41-027336b8998a"/>
+    <listType typeId="cc45ff39-978f-48e8-8080-10436ce2d3f2" valueTypeId="f3338b0c-3706-4f30-9165-4dd85ad4ca64"/>
+    <managerType typeId="8fb50b7e-1096-4798-b399-486090c573e5" valueTypeId="6f811a7f-115a-46b9-a2f4-9bb9bb937d6e"/>
+    <recordSetType typeId="01095d1e-79ea-4f4e-9e04-a1a296cc5f7b" valueTypeId="57ce5117-e90f-4e95-bfa1-a7420cda0464"/>
+    <recordKeyType typeId="b68b408c-ffba-4183-b1a6-a8a2fa5515c2" valueTypeId="c8cea3bf-0376-4ae8-8e12-424ba686c1d2"/>
+    <recordType typeId="bef79304-95a4-4730-88a9-f5c1e357d2b7" valueTypeId="a17257cc-615e-4a71-befb-da3daacc4ade"/>
+    <recordManagerType typeId="89da1a49-6e03-491f-b66e-cf55f6fe129f" valueTypeId="e1ac85f9-06e6-4c6e-8f45-60a566b589fb"/>
+  </producedTypes>
+  <name>ДанныеМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные метаданных</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="6bd31c83-2557-4226-88f7-ad049c638d3e">
+    <name>Sdbl</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sdbl</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="53b88517-82a0-4dac-81ef-7d0410e80dc6">
+    <name>СУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>СУБД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="08c033b4-e751-4542-8c55-b9409fe403aa">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Замер</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

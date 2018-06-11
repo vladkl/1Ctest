@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f280438b-74d2-483c-8b65-d9af2c0157da">
+  <producedTypes>
+    <managerType typeId="8b9c7592-8548-468e-a654-9b8ea555cfd5" valueTypeId="a6209e01-680f-4eab-a50e-dd427f86bd73"/>
+    <valueManagerType typeId="561b714a-667a-47dd-ae56-2976752782af" valueTypeId="3a345692-c436-4e91-89d4-31ae01ef2fb1"/>
+  </producedTypes>
+  <name>КАОбработкиЗамеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>КА Обработки замеров</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

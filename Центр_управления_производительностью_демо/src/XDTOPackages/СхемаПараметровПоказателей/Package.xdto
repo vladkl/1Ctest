@@ -1,0 +1,53 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/v8/pmc-counter-options-instance">
+	<property xmlns:d2p1="http://v8.1c.ru/v8/pmc-counter-options-instance" name="counterOptions" type="d2p1:CounterOptions"/>
+	<objectType name="Counter">
+		<property name="name" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="code" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="unit" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="interactive" type="xs:boolean" lowerBound="1" form="Attribute"/>
+		<property name="scale" type="xs:unsignedByte" lowerBound="1" form="Attribute"/>
+		<property name="r" type="xs:unsignedByte" lowerBound="1" form="Attribute"/>
+		<property name="g" type="xs:unsignedByte" lowerBound="1" form="Attribute"/>
+		<property name="b" type="xs:unsignedByte" lowerBound="1" form="Attribute"/>
+		<property name="lineType" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="lineWeight" type="xs:unsignedByte" lowerBound="0" form="Attribute"/>
+		<property name="gy_bound" type="xs:unsignedInt" lowerBound="1" form="Attribute"/>
+		<property name="yr_bound" type="xs:unsignedInt" lowerBound="1" form="Attribute"/>
+		<property name="type" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://v8.1c.ru/v8/pmc-counter-options-instance" name="parameters" type="d3p1:Parameters" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/v8/pmc-counter-options-instance" name="support" type="d3p1:Support"/>
+	</objectType>
+	<objectType name="CounterOptions">
+		<property xmlns:d3p1="http://v8.1c.ru/v8/pmc-counter-options-instance" name="group" type="d3p1:Group" upperBound="-1"/>
+	</objectType>
+	<objectType name="DBMS">
+		<property name="type" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="version" type="xs:unsignedInt" lowerBound="1" form="Attribute"/>
+		<property name="dlm_auto" type="xs:boolean" lowerBound="1" form="Attribute"/>
+		<property name="dlm_mixed" type="xs:boolean" lowerBound="1" form="Attribute"/>
+		<property name="dlm_managed" type="xs:boolean" lowerBound="1" form="Attribute"/>
+		<property name="os" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="Group">
+		<property name="name" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://v8.1c.ru/v8/pmc-counter-options-instance" name="group" type="d3p1:Group" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://v8.1c.ru/v8/pmc-counter-options-instance" name="counter" type="d3p1:Counter" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Parameter">
+		<property name="name" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="value" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="type" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>Boolean</enumeration>
+				<enumeration>Integer</enumeration>
+				<enumeration>String</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="Parameters">
+		<property xmlns:d3p1="http://v8.1c.ru/v8/pmc-counter-options-instance" name="parameter" type="d3p1:Parameter" upperBound="-1"/>
+	</objectType>
+	<objectType name="Support">
+		<property xmlns:d3p1="http://v8.1c.ru/v8/pmc-counter-options-instance" name="dbms" type="d3p1:DBMS" upperBound="-1"/>
+	</objectType>
+</package>

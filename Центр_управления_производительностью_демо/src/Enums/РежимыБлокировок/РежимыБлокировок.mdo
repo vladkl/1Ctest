@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01798f2b-b808-42a1-814e-cbb8fe674185">
+  <producedTypes>
+    <refType typeId="0f8cbaee-4332-4244-844f-2b72b9953579" valueTypeId="995ba460-c6ec-489f-915e-8961e52d9d92"/>
+    <listType typeId="7fb1827b-bcb3-4624-b104-8880a41be25a" valueTypeId="4f10f514-3b0d-4cad-b7ad-c3444ac91f31"/>
+    <managerType typeId="71dc0065-bd31-454a-9767-c8d2e01a15fb" valueTypeId="f74a3653-dd94-43fa-be29-d80c021530eb"/>
+  </producedTypes>
+  <name>РежимыБлокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы блокировок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0e6ff44d-c410-4a1c-9fbd-614dbbe261f0">
+    <name>Managed_Exclusive</name>
+    <synonym>
+      <key>ru</key>
+      <value>X</value>
+    </synonym>
+    <comment>Монопольная блокировка</comment>
+  </enumValues>
+  <enumValues uuid="0662f7ce-07ea-492b-994e-e5bbadacf827">
+    <name>Managed_Shared</name>
+    <synonym>
+      <key>ru</key>
+      <value>S</value>
+    </synonym>
+    <comment>Разделяемая блокировка</comment>
+  </enumValues>
+  <enumValues uuid="d1459df4-ce85-4df0-a8e2-610622710612">
+    <name>Managed_Updlock</name>
+    <synonym>
+      <key>ru</key>
+      <value>U</value>
+    </synonym>
+    <comment>Блокировка обновления</comment>
+  </enumValues>
+  <enumValues uuid="a6227f22-9e5a-45ec-8055-250d3fa36cdb">
+    <name>MSSQL_BU</name>
+    <synonym>
+      <key>ru</key>
+      <value>BU</value>
+    </synonym>
+    <comment>Блокировка маасового обновления</comment>
+  </enumValues>
+  <enumValues uuid="e9b6591d-4e9c-499c-850c-01f86eca5348">
+    <name>MSSQL_IS</name>
+    <synonym>
+      <key>ru</key>
+      <value>IS</value>
+    </synonym>
+    <comment>Блокировка с намерением разделяемого доступа</comment>
+  </enumValues>
+  <enumValues uuid="3498de00-0213-4853-8be6-ccd758a98349">
+    <name>MSSQL_IU</name>
+    <synonym>
+      <key>ru</key>
+      <value>IU</value>
+    </synonym>
+    <comment>Блокировка с намерением обновления</comment>
+  </enumValues>
+  <enumValues uuid="0450aa47-d10a-4052-90c0-f771c4b5c46f">
+    <name>MSSQL_IX</name>
+    <synonym>
+      <key>ru</key>
+      <value>IX</value>
+    </synonym>
+    <comment>Блокировка с намерением монопольного доступа</comment>
+  </enumValues>
+  <enumValues uuid="650a4db2-c68d-443d-a268-fb01ea73608e">
+    <name>MSSQL_NULL</name>
+    <synonym>
+      <key>ru</key>
+      <value>NULL</value>
+    </synonym>
+    <comment>Совместима со всеми другими видами блокировок (NL)</comment>
+  </enumValues>
+  <enumValues uuid="cec5cd27-9530-4338-9319-acc6287c770f">
+    <name>MSSQL_RangeI_N</name>
+    <synonym>
+      <key>ru</key>
+      <value>RangeI-N</value>
+    </synonym>
+    <comment>Блокировка диапазона для вставки</comment>
+  </enumValues>
+  <enumValues uuid="7d0ea731-1b53-45fe-88cc-41b0f7d9d53e">
+    <name>MSSQL_RangeI_S</name>
+    <synonym>
+      <key>ru</key>
+      <value>RangeI-S</value>
+    </synonym>
+    <comment>Блокировка преобразования диапазона для вставки и разделяемая блокировка ресурса</comment>
+  </enumValues>
+  <enumValues uuid="f7e07699-d664-4998-b153-a3113b55156e">
+    <name>MSSQL_RangeI_U</name>
+    <synonym>
+      <key>ru</key>
+      <value>RangeI-U</value>
+    </synonym>
+    <comment>Блокировка преобразования диапазона для вставки и блокировка обновления ресурса</comment>
+  </enumValues>
+  <enumValues uuid="d9efec68-42ed-4fc3-8f87-3823a27b27b8">
+    <name>MSSQL_RangeI_X</name>
+    <synonym>
+      <key>ru</key>
+      <value>RangeI-X</value>
+    </synonym>
+    <comment>Блокировка преобразования диапазона для вставки и монопольная блокировка ресурса</comment>
+  </enumValues>
+  <enumValues uuid="7bc0f261-acf5-465d-ac26-f8d1e200fc01">
+    <name>MSSQL_RangeS_S</name>
+    <synonym>
+      <key>ru</key>
+      <value>RangeS-S</value>
+    </synonym>
+    <comment>Разделяемая блокировка диапазона индекса и разделяемая блокировка ресурса</comment>
+  </enumValues>
+  <enumValues uuid="188a89f9-57de-4580-ab8a-049cef45f996">
+    <name>MSSQL_RangeS_U</name>
+    <synonym>
+      <key>ru</key>
+      <value>RangeS-U</value>
+    </synonym>
+    <comment>Разделяемая блокировка диапазона индекса и блокировка обновления ресурса</comment>
+  </enumValues>
+  <enumValues uuid="cad963e9-fc4b-4ed4-a839-d69acc71cab1">
+    <name>MSSQL_RangeX_S</name>
+    <synonym>
+      <key>ru</key>
+      <value>RangeX-S</value>
+    </synonym>
+    <comment>Монопольная блокировка диапазона индекса и разделяемая блокировка ресурса</comment>
+  </enumValues>
+  <enumValues uuid="718c93ac-56d3-4f5d-9aa2-f0f6d8673d8d">
+    <name>MSSQL_RangeX_U</name>
+    <synonym>
+      <key>ru</key>
+      <value>RangeX-U</value>
+    </synonym>
+    <comment>Монопольная блокировка диапазона индекса и блокировка обновления ресурса</comment>
+  </enumValues>
+  <enumValues uuid="b94700a8-c34f-4722-9f87-ff0df76c80cb">
+    <name>MSSQL_RangeX_X</name>
+    <synonym>
+      <key>ru</key>
+      <value>RangeX-X</value>
+    </synonym>
+    <comment>Монопольная блокировка диапазона индекса и ресурса</comment>
+  </enumValues>
+  <enumValues uuid="d83542cf-e2b1-4641-ab16-4feb93f7b8a8">
+    <name>MSSQL_S</name>
+    <synonym>
+      <key>ru</key>
+      <value>S</value>
+    </synonym>
+    <comment>Разделяемая блокировка</comment>
+  </enumValues>
+  <enumValues uuid="8bd15b91-366f-4a1d-96b7-294fa8d7703e">
+    <name>MSSQL_Sch_M</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sch-M</value>
+    </synonym>
+    <comment>Блокировка изменения схемы</comment>
+  </enumValues>
+  <enumValues uuid="a2bf0c4d-4f0b-45d8-ab57-1314e844972c">
+    <name>MSSQL_Sch_S</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sch-S</value>
+    </synonym>
+    <comment>Блокировка стабильности схемы</comment>
+  </enumValues>
+  <enumValues uuid="1e87cb9d-b6fb-4f8a-a71e-25acf0da224a">
+    <name>MSSQL_SIU</name>
+    <synonym>
+      <key>ru</key>
+      <value>SIU</value>
+    </synonym>
+    <comment>Разделяемая блокировка с намерением обновления</comment>
+  </enumValues>
+  <enumValues uuid="41c87f5c-b679-4881-8415-8cd33f0857ef">
+    <name>MSSQL_SIX</name>
+    <synonym>
+      <key>ru</key>
+      <value>SIX</value>
+    </synonym>
+    <comment>Разделяемая блокировка с намерением монопольного доступа</comment>
+  </enumValues>
+  <enumValues uuid="46e6a450-fefc-4a66-b565-66963d41dd74">
+    <name>MSSQL_U</name>
+    <synonym>
+      <key>ru</key>
+      <value>U</value>
+    </synonym>
+    <comment>Блокировка обновления</comment>
+  </enumValues>
+  <enumValues uuid="681e5b7f-bf99-4cf0-aca3-614cdfcfd848">
+    <name>MSSQL_UIX</name>
+    <synonym>
+      <key>ru</key>
+      <value>UIX</value>
+    </synonym>
+    <comment>Блокировка обновления с намерением монопольного доступа</comment>
+  </enumValues>
+  <enumValues uuid="978ecc07-a3eb-41fa-b83a-5509ac5e5a69">
+    <name>MSSQL_X</name>
+    <synonym>
+      <key>ru</key>
+      <value>X</value>
+    </synonym>
+    <comment>Монопольная блокировка</comment>
+  </enumValues>
+  <enumValues uuid="a71de541-aa7c-4c86-a785-3a686c1078ad">
+    <name>Неизвестный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неизвестный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

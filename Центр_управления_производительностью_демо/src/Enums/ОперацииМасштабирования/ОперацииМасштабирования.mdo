@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be067b1b-c3e1-4fa0-b66d-ea3d4bb2dfe4">
+  <producedTypes>
+    <refType typeId="e916f98a-0a97-4149-8af7-956f95956dfc" valueTypeId="0f2afe6e-f0bb-4305-91d6-5042ccc2e55c"/>
+    <listType typeId="e8f92b12-75a9-4943-b524-d721c03cbff8" valueTypeId="c94eb4ec-1b34-4a96-9ac9-ca43064bcdbc"/>
+    <managerType typeId="a5038066-f5ee-4059-9d42-1bb376beac9b" valueTypeId="ea38cb6f-c98f-4965-b7f7-c36d357f4650"/>
+  </producedTypes>
+  <name>ОперацииМасштабирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции масштабирования</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5bdd5e7f-c30e-4017-b6e5-c37de9b45104">
+    <name>Приблизить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приблизить</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="42b09f4b-3a67-4f3e-8fdc-20b575da2cff">
+    <name>Отдалить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдалить</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

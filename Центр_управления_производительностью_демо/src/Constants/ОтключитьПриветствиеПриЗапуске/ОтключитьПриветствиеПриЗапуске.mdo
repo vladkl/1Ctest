@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d01beff4-ccbd-47d2-883c-46e86dcc9aa6">
+  <producedTypes>
+    <managerType typeId="09514184-3c1f-40b3-a7ef-e1d395f183e4" valueTypeId="8acbf7f3-5e59-498d-8567-9a614f6b038e"/>
+    <valueManagerType typeId="900a6af0-327a-4f03-93c8-a6e4060959ad" valueTypeId="0bcf35ce-6a27-4d19-b642-abb33f875d9e"/>
+  </producedTypes>
+  <name>ОтключитьПриветствиеПриЗапуске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить приветствие при запуске</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

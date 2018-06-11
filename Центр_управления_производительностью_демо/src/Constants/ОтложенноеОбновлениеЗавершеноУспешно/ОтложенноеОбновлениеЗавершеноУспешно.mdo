@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c46c287c-1b72-4f2d-b723-3c0105a1ac0b">
+  <producedTypes>
+    <managerType typeId="31b48a12-e17d-49fb-a664-f5608729ce05" valueTypeId="cbfb2a39-30c7-432c-840c-fea94d5e977e"/>
+    <valueManagerType typeId="80ba30d9-7d4d-4d01-927d-c527d4fd1ec1" valueTypeId="884cbcb2-4334-4ca1-bed9-dac3ec595467"/>
+  </producedTypes>
+  <name>ОтложенноеОбновлениеЗавершеноУспешно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенное обновление завершено успешно</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

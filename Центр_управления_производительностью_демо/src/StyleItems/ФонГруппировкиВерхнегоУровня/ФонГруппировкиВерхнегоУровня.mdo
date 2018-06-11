@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1175773c-34c6-4bb9-bd32-83444aa2f8ee">
+  <name>ФонГруппировкиВерхнегоУровня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фон группировки верхнего уровня</value>
+  </synonym>
+  <comment></comment>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Style.FormBackColor</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

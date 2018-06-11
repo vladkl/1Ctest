@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b3ea4e1-3de3-41cc-ba28-e4f3d853bc7a">
+  <producedTypes>
+    <objectType typeId="6cae76b0-e701-4382-94e8-b26542019773" valueTypeId="bf04e2d9-913a-4038-87e4-0cfbf8771305"/>
+    <managerType typeId="61e4d7ee-a22b-4dec-b136-0ba311305118" valueTypeId="44432067-9bcc-47ae-b916-9a0c9cd2eeb0"/>
+  </producedTypes>
+  <name>ИнформацияПриЗапуске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация при запуске</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ИнформацияПриЗапуске.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="9b3ab8b6-d914-434f-9e1d-b138d5257667">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="be81ca46-d8c0-4a0a-8709-b25dccc68893">
+    <name>Описатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описатель</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <commands uuid="8b226cdf-b031-433c-bb0a-9cd7d01cf5e1">
+    <name>ИнформацияПриЗапуске</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация при запуске</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

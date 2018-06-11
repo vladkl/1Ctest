@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="780bc67b-365f-422e-93eb-c06bf26efd6c">
+  <name>ОстановитьАнализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остановить анализ</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>1</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

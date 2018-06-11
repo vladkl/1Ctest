@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e92357f6-8f86-406b-bf3a-2c2545c81089">
+  <producedTypes>
+    <refType typeId="605640f4-6200-4f40-93fa-6511a32d2a04" valueTypeId="28a5988c-d1cc-428a-ac81-42c8eb27a5a0"/>
+    <listType typeId="140a7791-5ff0-4056-bcd5-b3e13703212c" valueTypeId="49a7a5c9-ff69-4357-8e7c-75eff157b63d"/>
+    <managerType typeId="13e4326c-ab74-41a8-bf57-51b58615307e" valueTypeId="21c0861f-7610-488c-b387-bc92c701e21c"/>
+  </producedTypes>
+  <name>ЗоныЗначенийПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны значений показателей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="41d65174-94d0-4c22-b00e-db46025b1307">
+    <name>Зеленая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зеленая</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9628fd5a-854f-4f1a-a35d-dbbdb7ea985d">
+    <name>Желтая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Желтая</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9dc192db-8dc6-4294-b71e-ee61b54e5665">
+    <name>Красная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Красная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

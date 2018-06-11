@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1714db29-fc55-4b83-941e-9fed4f6b0282">
+  <name>АнализВзаимоблокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ взаимоблокировок</value>
+  </synonym>
+  <comment></comment>
+  <templateType>DataCompositionSchema</templateType>
+</mdclass:CommonTemplate>

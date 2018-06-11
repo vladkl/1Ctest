@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<t:meteringFEM
+  xmlns:t="http://v8.1c.ru/v8/pmc-metering-fem-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <t:row state="ЗамерЗавершен" action="ПолучитьИсходныеДанные" />
+  <t:row state="ПолучениеИсходныхДанных" action="РезультатПолученияИсходныхДанных" onActionSuccess="ЗавершитьПолучениеДанных" onActionFail="ОтменитьПолучениеДанных" />
+  <t:row state="ИсходныеДанныеПолучены" action="ПодготовитьИсходныеДанные" />
+  <t:row state="ПодготовкаИсходныхДанных" action="РезультатПодготовкиИсходныхДанных" onActionSuccess="ЗавершитьПодготовкуДанных" onActionFail="ОтменитьПодготовкуДанных" />
+  <t:row state="ИсходныеДанныеПодготовлены" action="ПроанализироватьЗамер" />
+  <t:row state="Анализ" action="РезультатАнализаЗамера" onActionSuccess="ЗавершитьАнализЗамера" onActionFail="ОтменитьАнализЗамера" />
+  <t:row state="АнализЗавершен" action="ЗавершитьАнализЗамера" />
+</t:meteringFEM>

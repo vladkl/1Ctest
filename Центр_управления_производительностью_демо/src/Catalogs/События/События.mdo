@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbc0360c-587c-4420-ab27-782b65db7d56">
+  <producedTypes>
+    <objectType typeId="94c2a755-49bd-4779-9f5b-c8ed80b4028e" valueTypeId="528414b9-9bf6-4c92-b57f-5c76f9ce417d"/>
+    <refType typeId="db057c2c-1665-4267-86a7-4b0a183275a4" valueTypeId="1ce7f39e-aff6-4ebf-92c4-71eb3f69fe9d"/>
+    <selectionType typeId="60ffcc18-ad63-47f4-a0a6-506f5908c539" valueTypeId="fc8a7e27-6249-4628-b0b0-2249fd691ba2"/>
+    <listType typeId="a704f7d6-04bf-49e5-8cdf-f0c54b9ed5d0" valueTypeId="2f83fe5b-91ca-4b37-944b-4de3ce1cdc7c"/>
+    <managerType typeId="945f1205-53af-4021-966c-035b71359fc4" valueTypeId="0f6d2809-557e-4879-9be9-1e4cc50bd123"/>
+  </producedTypes>
+  <name>События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.События.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.События.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="879502c8-99dd-479b-89b0-9fb84e333d8d">
+      <name>ЗаписьПоказателяВыключена</name>
+      <description>Запись показателя выключена</description>
+      <code xsi:type="core:StringValue">
+        <value>ЗаписьПоказателяВыключена                         </value>
+      </code>
+    </items>
+    <items id="4b213cd7-8228-4e7e-b3b6-f7993884439b">
+      <name>НачалоРаботы</name>
+      <description>Начало работы</description>
+      <code xsi:type="core:StringValue">
+        <value>НачалоРаботы                                      </value>
+      </code>
+    </items>
+    <items id="b6461d74-a5d2-4390-9eb9-a593c18772e5">
+      <name>Ошибка</name>
+      <description>Ошибка</description>
+      <code xsi:type="core:StringValue">
+        <value>Ошибка                                            </value>
+      </code>
+    </items>
+    <items id="fdb425d8-e277-4834-b4d3-58f2f6ea409c">
+      <name>ПереходПоказателяВЗону</name>
+      <description>Переход показателя в зону</description>
+      <code xsi:type="core:StringValue">
+        <value>ПереходПоказателяВЗону                            </value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.События.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.События.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="edb7eb0c-d0fb-4cfa-ac5e-400fb400bb04">
+    <name>Интерактивное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интерактивное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f97b4358-ea9b-4142-b307-972f22448fc4">
+    <name>РедакторЗаписьПоказателяВыключена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор запись показателя выключена</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e8e04c41-1fa8-4342-bef6-faaa3da6c347">
+    <name>РедакторПереходПоказателяВЗону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор переход показателя в зону</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9a287f70-4172-4b03-9e07-a6506d00e370">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="77c1d3d7-f3ca-4c60-8d85-1bf151b4b1df">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

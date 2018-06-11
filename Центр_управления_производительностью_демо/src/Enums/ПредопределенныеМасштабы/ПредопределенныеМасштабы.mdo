@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e30bb3a-eb19-4119-beec-39fff7468eae">
+  <producedTypes>
+    <refType typeId="488e885e-652a-4535-b684-a6366d0f7be9" valueTypeId="6a9070d7-f03c-46e8-81eb-0dd02c378324"/>
+    <listType typeId="c9fee72a-7b05-4edc-b2e8-0b6e863bdc23" valueTypeId="e83bd5bc-fd24-4c37-8907-fcb92c0c432b"/>
+    <managerType typeId="c3f7b1cb-89cd-446f-90f1-1ac0cf6568b1" valueTypeId="bd2aad2f-8165-4125-844f-115a0ff7fff4"/>
+  </producedTypes>
+  <name>ПредопределенныеМасштабы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные масштабы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7a389dd-58ec-4252-809c-49fdfd3f7910">
+    <name>Минимальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="31e60588-54ae-43bf-a738-692fbf9418b6">
+    <name>Максимальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9314d383-3c75-4f11-a830-2cce720ed1f1">
+    <name>Минута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минута</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2968d65a-6c45-4d5d-9e13-bd071fb88ad0">
+    <name>Час</name>
+    <synonym>
+      <key>ru</key>
+      <value>Час</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a897ee01-4cbf-4783-9291-89ce86c6e876">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6b2034f3-200d-47b3-9860-6178902ee3d7">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="29d4085a-698d-491c-9ad4-656dc21641e7">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="56c6b92f-e8c6-473a-89ff-ef84277e2316">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

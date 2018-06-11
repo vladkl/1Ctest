@@ -1,0 +1,21 @@
+﻿<CatalogObject.Сценарии>
+
+	<Ref>f2e55059-9367-4bd9-9cd6-1466a02cdd78</Ref>
+
+	<DeletionMark>false</DeletionMark>
+
+	<Code>1</Code>
+
+	<Description>Базовый</Description>
+
+	<PredefinedDataName>Базовый</PredefinedDataName>
+
+	<Интерактивный>false</Интерактивный>
+
+	<НачальноеСостояние>Готов к работе</НачальноеСостояние>
+
+	<Описание/>
+
+	<Структура/>
+
+</CatalogObject.Сценарии>

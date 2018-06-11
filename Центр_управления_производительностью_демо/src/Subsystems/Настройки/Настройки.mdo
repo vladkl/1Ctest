@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c61fd64-37b8-4140-baae-149fd3c5fd9d">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Сервис</picture>
+  </picture>
+  <content>Catalog.Сценарии</content>
+  <content>CommonForm.Константы</content>
+  <content>InformationRegister.БезопасноеХранилище</content>
+  <content>CommonCommand.ОбщиеНастройки</content>
+  <content>CommonForm.ОписаниеИзмененийПрограммы</content>
+  <content>CommonCommand.РезультатыОбновленияИДополнительнаяОбработкаДанных</content>
+  <content>Catalog.Показатели</content>
+  <content>Catalog.АгентыЦКК</content>
+</mdclass:Subsystem>

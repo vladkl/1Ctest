@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdc250f4-8ea3-4879-8ec2-fa12b9a4ff5b">
+  <producedTypes>
+    <selectionType typeId="ae29d0ee-2351-4e33-a091-dbff3b1453db" valueTypeId="7ac11cfd-0410-4ddc-8dc2-7eefeff9c21b"/>
+    <listType typeId="6aabefb4-e840-4ce3-8786-68e9e62bf1cb" valueTypeId="540a0235-610f-45bd-9d85-29a2c029703d"/>
+    <managerType typeId="53d634d1-f0bf-44f9-84f6-d22cc777bfc2" valueTypeId="0aa3cd12-1125-4dd2-b16f-a05458b88bec"/>
+    <recordSetType typeId="df25ef53-597c-4f4b-8c06-24b376ec2ae0" valueTypeId="3438a3c8-23bc-401a-9a0f-bf6fdf5aa3a6"/>
+    <recordKeyType typeId="3c535f9b-6bb8-4024-a668-3ef4b00df66d" valueTypeId="75b44643-8221-48ee-a57f-2f6cf96350d7"/>
+    <recordType typeId="647206a7-112c-4599-8d8d-f6ea1a4a2c28" valueTypeId="161e37f0-c41d-45ac-b762-ad5d18e59f07"/>
+    <recordManagerType typeId="d2629486-41d9-4ca3-af7d-b0ace7a61e6e" valueTypeId="450dbb46-8028-4897-97f6-84e738a4eb5f"/>
+  </producedTypes>
+  <name>ПараметрыРаботыПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры работы программы</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПараметрыРаботыПрограммы.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПараметрыРаботыПрограммы.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6691a51d-9f61-46e2-ab87-5684a16bf5be">
+    <name>ХранилищеПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище параметра</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3fdedcc8-c3b9-4736-851f-c7116791f924">
+    <name>ИмяПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя параметра</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4e292eb2-edfa-4572-bbb6-28988adf1739">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2c30a849-0edc-41e8-ba1f-a9f3c2220d77">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

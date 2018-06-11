@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27a62a87-775a-44fa-83f6-e127cb300e9e">
+  <producedTypes>
+    <objectType typeId="6d186038-ca5c-40bc-af12-12d48c47ae2b" valueTypeId="04ccf756-7c88-4248-9165-e2f8e3252e56"/>
+    <refType typeId="805b6ac9-3d87-42d7-8a97-7a970192729d" valueTypeId="4a04de21-cab9-48bb-ba5a-cf2f1362e475"/>
+    <selectionType typeId="d1e61dc8-3023-422d-90ca-29cb0ab70711" valueTypeId="85a99af7-ab42-4ea4-bea9-fb527b6d9584"/>
+    <listType typeId="b6f8b2a9-ae24-40ea-b01f-d03a4a67c349" valueTypeId="03ffe938-b9ab-4762-b8d5-cf727c092236"/>
+    <managerType typeId="ead02e4a-5945-4201-b333-d8dcfc46f4c7" valueTypeId="818b14cf-b79d-4001-89df-133907310139"/>
+  </producedTypes>
+  <name>СчетчикиОжиданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счетчики ожиданий</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СчетчикиОжиданий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СчетчикиОжиданий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ИнформационныеБазы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="36900d94-86c2-4734-85a9-5c971798dc6c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc5b9a56-0b01-4388-af19-7f117a07c91e">
+  <producedTypes>
+    <objectType typeId="14ced325-6bac-4eec-b6d6-0faeec95b979" valueTypeId="fe09fe6e-44ea-47bf-805a-0fd8a6a23e76"/>
+    <managerType typeId="2b2e3b93-2b4e-466e-a9cb-0e80e3c0a5d4" valueTypeId="0ebe7e26-3bfe-4217-b060-f7a91a0099c7"/>
+  </producedTypes>
+  <name>ПроверкаРегулярныхВыражений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка регулярных выражений</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроверкаРегулярныхВыражений.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="0b10da8d-183b-477c-b79d-698800e045f3">
+    <name>ШаблонПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон поиска</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="991caaf7-f074-4d76-a7ac-7c9891e2815d">
+    <name>ШаблонЗамены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон замены</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4d750b6a-2e1f-4ca5-b896-76472906955d">
+    <name>ВходныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входные данные</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="588666d8-b356-4264-886c-f7dd02f75524">
+    <name>РезультатВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выполнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="02947918-803e-406b-8150-1799ab5893a3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d00b6acb-394c-4b32-bd4d-71d622f62716">
+    <name>ПроверкаРегулярныхВыражений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка регулярных выражений</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

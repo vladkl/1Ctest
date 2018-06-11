@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ada67e6e-4259-475b-bc1a-c17af16d820c">
+  <producedTypes>
+    <objectType typeId="c4123f1f-434a-4ea7-ac48-54ef10de17d3" valueTypeId="81f8fec9-2c25-49a7-a6c8-ea16f01f8781"/>
+    <refType typeId="ef250d1c-3aa5-4d77-bfc4-59ebcf0efcbf" valueTypeId="c54c4c98-e249-4b9f-a536-a72fd85188e0"/>
+    <selectionType typeId="5b9f69e8-6867-4989-8b49-70c258d0a853" valueTypeId="8881b55e-1a3b-4047-93ae-44cfbd8d53aa"/>
+    <listType typeId="07749d40-d688-4dd0-a1c8-4d3095bc931a" valueTypeId="c6c4de0d-8a5c-4f97-b277-e753f6f48304"/>
+    <managerType typeId="565fef06-2353-4e33-a0cd-0bc492184ade" valueTypeId="4a758db4-44b2-4a27-a851-ecf93d80da60"/>
+  </producedTypes>
+  <name>Контексты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контексты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контексты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контексты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ИнформационныеБазы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контексты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="cfac5641-081c-45bd-8538-427a5d58b935">
+    <name>ПерваяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первая строка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтрокиКонтекста</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30e163e6-b336-4c84-a67d-197af8c6798e">
+    <name>ПоследняяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя строка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтрокиКонтекста</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="88c78fc3-8c3c-4947-b352-e9be6f2254f7">
+    <name>ТипКонтекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип контекста</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыКонтекстов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5eb82c36-b559-476f-a2a2-0988fff08c5e">
+    <name>Хеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93f5ce68-67bd-4ef1-8e77-c43f08cb98e3">
+    <name>Контекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a9b4d163-7af0-49fa-9a87-c29ac8794284">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

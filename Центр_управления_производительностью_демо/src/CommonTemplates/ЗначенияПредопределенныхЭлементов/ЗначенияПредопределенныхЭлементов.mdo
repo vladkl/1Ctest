@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fb69038-834f-4a2c-a2ce-e49fa19698e9">
+  <name>ЗначенияПредопределенныхЭлементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения предопределенных элементов</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95e4d67a-836c-4bd3-9701-e492cdb99c5a">
+  <name>ИнтеграцияПодсистемБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция стандартных подсистем</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

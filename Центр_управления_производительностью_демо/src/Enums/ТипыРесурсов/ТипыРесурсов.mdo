@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f329e96-ce10-4bf8-b429-b7286c2a15e7">
+  <producedTypes>
+    <refType typeId="3cec86a7-5363-4b1b-9e14-2c3b276220d1" valueTypeId="aaf0e924-1815-4095-b3b2-8e0bd40672a4"/>
+    <listType typeId="47d7ded5-d80f-4b9d-be2e-0fa482089836" valueTypeId="eda097d1-dd90-4166-8cfc-312d63a02cba"/>
+    <managerType typeId="f6d0db15-b727-4e62-8fe9-d400fe602cf8" valueTypeId="ab3dbfe4-2fd7-4f72-b127-95a38c59ad4f"/>
+  </producedTypes>
+  <name>ТипыРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ресурсов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2be086cb-b3fb-4fc0-86ec-81815f63e6d1">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2461bdc8-0564-4016-a77b-fac85c868328">
+    <name>Таблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="18d0375e-3828-4c6c-a8e6-0d8ac9d68ece">
+    <name>Индекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

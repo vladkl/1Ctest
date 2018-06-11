@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e6a0be9-a16b-491f-ae1b-35902effb4d7">
+  <producedTypes>
+    <managerType typeId="fadf4468-c2b3-4a2c-9025-65780c665be7" valueTypeId="08ed15ea-c761-4aa1-ba40-9de194087389"/>
+    <valueManagerType typeId="89c7fa42-2199-4bd8-a642-bf6a1854c187" valueTypeId="0a9c7110-ac17-4a5b-99f9-18d1894ef241"/>
+  </producedTypes>
+  <name>СведенияОБлокируемыхОбъектах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о блокируемых объектах</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

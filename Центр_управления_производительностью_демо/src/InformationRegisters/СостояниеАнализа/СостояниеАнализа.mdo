@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="489b9e93-8ac2-49f1-ade5-270af7467604">
+  <producedTypes>
+    <selectionType typeId="329c45cf-2abb-4670-a674-e847ae06a147" valueTypeId="d77b9a56-b9d1-47dc-93bd-d66baae09cb5"/>
+    <listType typeId="80f0564f-6f8a-48a0-b36e-ff3f6c7e3ce0" valueTypeId="82ab4268-2961-494a-9e68-78c1f93f69a4"/>
+    <managerType typeId="e8a0bc03-189c-48b5-91b5-358183e252ff" valueTypeId="356a46c1-0851-4e30-ac49-73a23fe5d7af"/>
+    <recordSetType typeId="c94aa8a8-7310-43ae-932d-17a1a38d7fed" valueTypeId="2baf4755-9f5d-4000-bff6-157f8cdfb020"/>
+    <recordKeyType typeId="85ee1966-8e66-4c63-8d48-51d87130161d" valueTypeId="020c6d05-9d36-493e-9c26-8fa4812f52d1"/>
+    <recordType typeId="466a558f-3d0c-43ef-8ae1-ab82fa8cba15" valueTypeId="b4cd10cd-62f1-4480-97b5-a11678f7da44"/>
+    <recordManagerType typeId="0274de78-8746-4919-ad80-a239aab7ce07" valueTypeId="b06cc99f-f9dc-44f1-adf3-0e1754680e02"/>
+  </producedTypes>
+  <name>СостояниеАнализа</name>
+  <synonym>
+    <key>ru</key>
+    <value>СостояниеЗамера</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="688ef51c-1906-4433-9b0c-35ec1c2b76bf">
+    <name>Прогресс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогресс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c2b62592-c082-464b-8387-c3d344b2e656">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СтатусыПроцессов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a8147d79-dc4a-4dad-85b1-a4a188158998">
+    <name>ПроцессАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процесс анализа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ПроцессыАнализа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="52f0d28c-e630-4027-8084-b1282b4d8f78">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Замер</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

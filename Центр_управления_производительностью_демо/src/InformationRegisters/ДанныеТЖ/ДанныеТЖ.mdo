@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d125493-3013-47f4-8019-b38e90b3aee6">
+  <producedTypes>
+    <selectionType typeId="b086ed23-96b0-4999-92f5-27fdfe547a62" valueTypeId="2a5c0d7f-70a2-49cd-899e-41036d5092cf"/>
+    <listType typeId="d83ecb7d-6c3c-497a-be50-e4f5cb020592" valueTypeId="04e80ad8-ba70-4907-a8d9-b84edd2316c2"/>
+    <managerType typeId="d23910a4-e99e-4917-aeb8-f11bc2948b55" valueTypeId="763af0c7-ccf8-44e3-9288-0abe0e4696b8"/>
+    <recordSetType typeId="ccc1918c-dc97-46cd-98af-72eef7bbc273" valueTypeId="94ffc56c-2ea3-44a3-8666-77cf2bed39bd"/>
+    <recordKeyType typeId="45b04760-d452-456d-b6f7-2b1e3c82f049" valueTypeId="5cdc5937-0bcc-43b6-9563-ee54d63e5465"/>
+    <recordType typeId="791f7a6e-e7db-4bf0-a2a2-d2ef860d7a82" valueTypeId="1091b339-f01b-49f5-82db-fb0a0cee7dba"/>
+    <recordManagerType typeId="46e17cb5-5f9d-4e59-94c4-1859ca454c6f" valueTypeId="ab43fc91-08cf-4c1d-b83b-85d49fb09bb5"/>
+  </producedTypes>
+  <name>ДанныеТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные ТЖ</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.ДанныеТЖ.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="c30e8db1-5b5e-4b76-85d7-f1b947fe84be">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c0965c62-b4ed-4989-a409-ea8f2e164a3f">
+    <name>НомерПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер пути</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="127c79fc-f072-45a8-9493-af881dbbe941">
+    <name>Путь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0832fba6-127c-4f69-b1d5-d16073637d2c">
+    <name>НомерПорции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер порции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a8b4aeed-6faa-4e13-a747-13988be52078">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Замер</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="86b9ca2d-ed2d-4a83-8722-e97b24af4344">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

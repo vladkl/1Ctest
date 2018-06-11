@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40c5426b-fb97-408d-816e-85b211338a22">
+  <name>Рука</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рука</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7731500e-5f0d-4440-a6cb-7db02197c427">
+  <producedTypes>
+    <refType typeId="edf97fb6-4273-4f13-8584-3ae3ec1a4d9f" valueTypeId="871f7de5-1b75-4ab6-9f9f-0a04e856f90c"/>
+    <listType typeId="3eb244f0-1c26-4813-9b31-91e1c99d3961" valueTypeId="1ca99fa9-53fe-45e1-bfea-f24a26ed2835"/>
+    <managerType typeId="c9715e3d-a974-4bdd-b2ae-b2774ed6249b" valueTypeId="35e4adff-3c1d-4b97-8b43-d2538e59fd2e"/>
+  </producedTypes>
+  <name>ТипыКомандАгентаЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы команд агента ЦКК</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="45b11fbb-d6a4-46b1-acc9-38cdf740de49">
+    <name>RemoteControl</name>
+    <synonym>
+      <key>ru</key>
+      <value>RemoteСontrol</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cd7fbc4d-3141-484f-9a78-dbc0a6decd89">
+    <name>PerfomanceMonitor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Perfomance monitor</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

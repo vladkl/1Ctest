@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a78d921e-61af-4be6-8592-a347f6c3bea0">
+  <producedTypes>
+    <objectType typeId="68333c87-70d7-41c1-a134-cbb1969157b5" valueTypeId="06843494-c4d7-4c37-9e16-5b3b8aa0107c"/>
+    <refType typeId="a592c3ae-bcc0-4279-a41e-83ded1deb16f" valueTypeId="c463ef32-c79a-446e-8aea-ee50274df323"/>
+    <selectionType typeId="d52edbf3-dd88-4c49-9cf0-874566046dfa" valueTypeId="e9484879-579d-4c6e-86c5-f99e30fe31c2"/>
+    <listType typeId="486587a1-0905-4073-906b-158fd88be254" valueTypeId="745b071f-4250-4e5c-a726-d8bb05448a9e"/>
+    <managerType typeId="8437c781-c86b-4618-a21a-67b6ee857ca3" valueTypeId="3251ad78-f609-4016-a4be-9af7ba2ba23f"/>
+  </producedTypes>
+  <name>ПользователиИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи ИБ</value>
+  </synonym>
+  <comment>Справочник пользователей ИБ, которые попались нам во время расследования проблем</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПользователиИБ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПользователиИБ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ИнформационныеБазы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="368fd95d-7308-4c21-8f4a-54ee1701f635">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f77bd32-3b84-4d64-a520-1c7c0927b7ba">
+    <name>Компьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

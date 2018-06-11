@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60232390-f395-4e8c-afbc-6fb8a180f1ed">
+  <name>PostgreSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Postgre SQL</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+</mdclass:CommonModule>

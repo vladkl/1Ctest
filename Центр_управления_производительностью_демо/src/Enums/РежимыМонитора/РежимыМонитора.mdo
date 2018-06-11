@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a24273b3-8a0a-4739-90f9-d4fea6e3b1d5">
+  <producedTypes>
+    <refType typeId="442e1b28-013c-461c-a256-4d9be1a4b4f6" valueTypeId="83c90d2f-7d0d-4774-95dd-34a1631906cd"/>
+    <listType typeId="a9a7410e-bf17-466c-aa92-a2dbd5243cec" valueTypeId="863d56ce-6791-418e-85ef-c1854a7fed0d"/>
+    <managerType typeId="606262b0-51da-492f-b2fa-1589a3c0795b" valueTypeId="e0ea6452-49f7-47b3-acd6-67632cad2072"/>
+  </producedTypes>
+  <name>РежимыМонитора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы монитора</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="096c4be8-dc64-4c47-9f89-b61d2fc77994">
+    <name>Мониторинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторинг</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f000c490-6bdc-4862-bffc-d5a75f041862">
+    <name>Просмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

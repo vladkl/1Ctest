@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="224c71d1-133a-41f7-aaa4-c1f107a7d8eb">
+  <producedTypes>
+    <managerType typeId="f24c1368-a8de-453a-8a33-855ae8ba7237" valueTypeId="f55b015c-e4f2-4ef1-9107-f4b74714c428"/>
+    <valueManagerType typeId="5a09f9a4-e6f7-493f-be9e-ce7f81e4b589" valueTypeId="0e1b113d-54e9-425a-b779-7da5a673ff23"/>
+  </producedTypes>
+  <name>ДетализироватьОбновлениеИБВЖурналеРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Детализировать обновление ИБ в журнале регистрации</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Записывать в журнал регистрации дополнительную информацию о ходе выполнения обработчиков обновления версии ИБ</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

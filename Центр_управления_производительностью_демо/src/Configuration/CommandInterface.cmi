@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsVisibility>
+    <visibilityFragments>
+      <subsystem>Subsystem.ЦУП</subsystem>
+      <visible/>
+    </visibilityFragments>
+  </subsystemsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.ЦУП</subsystems>
+    <subsystems>Subsystem.Настройки</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

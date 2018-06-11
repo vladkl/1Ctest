@@ -1,0 +1,631 @@
+﻿<?xml version="1.0"?>
+<lockCompatibility xmlns="http://v8.1c.ru/v8/perfmon-lockCompatibility">
+  <dbms name="MSSQLServer">
+    <owner mode="Sch-S">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="Sch-M">
+      <compatibility state="Conflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="S">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="SIU"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="X"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="U">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="S"/>
+        <requestor mode="IS"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeX-S"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="X">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="RangeI-N"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="IS">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="X"/>
+        <requestor mode="BU"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="IU">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="S"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="IX">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="SIU">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="S"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="SIU"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="SIX">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="UIX">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="IS"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="BU">
+      <compatibility state="NoConflict">
+        <requestor mode="Sch-S"/>
+        <requestor mode="BU"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Sch-M"/>
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+    </owner>
+    <owner mode="RangeS-S">
+      <compatibility state="NoConflict">
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="X"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+    </owner>
+    <owner mode="RangeS-U">
+      <compatibility state="NoConflict">
+        <requestor mode="S"/>
+        <requestor mode="RangeS-S"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+    </owner>
+    <owner mode="RangeI-N">
+      <compatibility state="NoConflict">
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+    </owner>
+    <owner mode="RangeI-S">
+      <compatibility state="NoConflict">
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="X"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+    </owner>
+    <owner mode="RangeI-U">
+      <compatibility state="NoConflict">
+        <requestor mode="S"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+    </owner>
+    <owner mode="RangeI-X">
+      <compatibility state="NoConflict">
+        <requestor mode="RangeI-N"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+    </owner>
+    <owner mode="RangeX-S">
+      <compatibility state="NoConflict">
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="X"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+    </owner>
+    <owner mode="RangeX-U">
+      <compatibility state="NoConflict">
+        <requestor mode="S"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+    </owner>
+    <owner mode="RangeX-X">
+        <compatibility state="Conflict">
+        <requestor mode="S"/>
+        <requestor mode="U"/>
+        <requestor mode="X"/>
+        <requestor mode="RangeS-S"/>
+        <requestor mode="RangeS-U"/>
+        <requestor mode="RangeI-N"/>
+        <requestor mode="RangeI-S"/>
+        <requestor mode="RangeI-U"/>
+        <requestor mode="RangeI-X"/>
+        <requestor mode="RangeX-S"/>
+        <requestor mode="RangeX-U"/>
+        <requestor mode="RangeX-X"/>
+      </compatibility>
+      <compatibility state="Illegal">
+        <requestor mode="Sch-S"/>
+        <requestor mode="Sch-M"/>
+        <requestor mode="IS"/>
+        <requestor mode="IU"/>
+        <requestor mode="IX"/>
+        <requestor mode="SIU"/>
+        <requestor mode="SIX"/>
+        <requestor mode="UIX"/>
+        <requestor mode="BU"/>
+      </compatibility>
+    </owner>
+  </dbms>
+  <dbms name="DBV8DBEng">
+    <owner mode="Shared">
+      <compatibility state="NoConflict">
+        <requestor mode="Shared"/>
+        <requestor mode="Updlock"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Exclusive"/>
+      </compatibility>
+    </owner>
+    <owner mode="Updlock">
+      <compatibility state="NoConflict">
+        <requestor mode="Shared"/>
+      </compatibility>
+      <compatibility state="Conflict">
+        <requestor mode="Updlock"/>
+        <requestor mode="Exclusive"/>
+      </compatibility>
+    </owner>
+    <owner mode="Exclusive">
+      <compatibility state="Conflict">
+        <requestor mode="Shared"/>
+        <requestor mode="Updlock"/>
+        <requestor mode="Exclusive"/>
+      </compatibility>
+    </owner>
+  </dbms>
+</lockCompatibility>

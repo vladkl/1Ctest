@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98515cd1-831d-46d4-b0c3-8b64578cc4fd">
+  <producedTypes>
+    <refType typeId="4bd6fa23-b2c7-4584-959f-28a72fa3e01a" valueTypeId="5be73e22-d0bb-41b2-8cd4-0bdb5d7ae587"/>
+    <listType typeId="0c48339c-ac62-460f-b8b7-bab141fb410a" valueTypeId="40931061-2e93-489b-9e1e-074b1ac724ee"/>
+    <managerType typeId="53029f1a-ff86-4c32-91b1-e8b613c4273c" valueTypeId="d5007e14-426b-460c-9ab8-607b29edd36a"/>
+  </producedTypes>
+  <name>РежимыАгрегирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы агрегирования</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f3b4f16f-9d42-492c-9ef2-44e4d700cebf">
+    <name>Среднее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="938959d6-076f-4d13-b650-ecd20d95da25">
+    <name>Максимум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимум</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

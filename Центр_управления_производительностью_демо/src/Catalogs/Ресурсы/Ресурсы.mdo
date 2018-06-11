@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edcd7220-c4f3-455f-9ea4-8e4ce8e923ce">
+  <producedTypes>
+    <objectType typeId="23d5e85e-8781-4d88-9d4c-86188846ed94" valueTypeId="147ca9c2-aefd-4840-a5e2-86e0f7e49f93"/>
+    <refType typeId="62234eda-17a0-444c-848c-97f6e571aad0" valueTypeId="0b86e62f-926a-425a-8832-c66f7938569c"/>
+    <selectionType typeId="9723b164-4a7f-422f-a2df-9e8ca95d9f9c" valueTypeId="40b76bd0-f440-4209-8579-74add7fe8d10"/>
+    <listType typeId="6bc3b64c-28f7-43df-b7c7-0c6f07de1dec" valueTypeId="0b03d7e6-967a-4d49-875e-a05926355ab8"/>
+    <managerType typeId="ae393919-790f-4c0d-9c2b-ed092dff9b1a" valueTypeId="991897c2-9583-4155-8236-0b06dddd1cf9"/>
+  </producedTypes>
+  <name>Ресурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ресурсы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ресурсы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Ресурсы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ИнформационныеБазы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8ae25a70-5497-42d7-80b8-f9a3f4af5ae8">
+    <name>Хеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0eb652e-00f0-43a0-8b35-542bad430687">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыРесурсов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f73b9f14-3785-4f16-b7aa-4e62815db236">
+    <name>ХешСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш строка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="957f5a0e-5fb5-4e0f-984d-f728dc568d4c">
+    <producedTypes>
+      <objectType typeId="e0831895-871c-471c-b1ba-052ba07177fa" valueTypeId="ae086752-8532-4617-8262-9f8e7cf6f5f1"/>
+      <rowType typeId="5020f8a6-c62a-4ec1-b4e1-056e3f2a3859" valueTypeId="d82a859e-d851-4e25-a647-d6b41e574fc6"/>
+    </producedTypes>
+    <name>Измерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерения</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="614062ab-24d7-4a16-9c47-07db08a486e6">
+      <name>Измерение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf124e81-c1fe-4f28-853f-3bea27eb0031">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9d190b48-95ac-4437-91ce-6d7d27fa35ec">
+    <name>ФормаОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма объекта метаданных</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="652e37bd-e91b-40c9-9991-e46feac5db37">
+    <name>ФормаТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма таблицы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e38e7aeb-246e-4bd2-ac35-238e16ecde75">
+    <name>ФормаИндекса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма индекса</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

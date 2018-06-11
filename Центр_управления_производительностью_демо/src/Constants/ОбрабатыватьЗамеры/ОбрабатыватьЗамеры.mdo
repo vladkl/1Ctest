@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f23dd55-53aa-44b1-9efb-9bdf04eac808">
+  <producedTypes>
+    <managerType typeId="db8e35b7-0b4c-4634-9169-2535dc2a1c91" valueTypeId="e7feaa44-b751-40e3-a919-ae7fc3e338a8"/>
+    <valueManagerType typeId="7d20be2a-7964-40ba-bafe-624f5d11cb2e" valueTypeId="3820b49b-e284-4487-81a8-55901cfc2fcf"/>
+  </producedTypes>
+  <name>ОбрабатыватьЗамеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обрабатывать замеры</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

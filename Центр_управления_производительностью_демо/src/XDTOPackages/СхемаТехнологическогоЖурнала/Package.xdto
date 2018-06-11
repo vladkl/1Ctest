@@ -1,0 +1,18 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/v8/tech-log-instance">
+	<property xmlns:d2p1="http://v8.1c.ru/v8/tech-log-instance" name="log" type="d2p1:TechLog"/>
+	<objectType name="Event">
+		<property name="date" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+		<property name="ms" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="len" type="xs:unsignedLong" lowerBound="1" form="Attribute"/>
+		<property name="name" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="level" type="xs:unsignedInt" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://v8.1c.ru/v8/tech-log-instance" name="prop" type="d3p1:Property" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Property">
+		<property name="name" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="content" type="xs:string" lowerBound="0" nillable="true" form="Text"/>
+	</objectType>
+	<objectType name="TechLog">
+		<property xmlns:d3p1="http://v8.1c.ru/v8/tech-log-instance" name="event" type="d3p1:Event" upperBound="-1"/>
+	</objectType>
+</package>

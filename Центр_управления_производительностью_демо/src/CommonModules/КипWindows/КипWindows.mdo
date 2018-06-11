@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e075f40b-5a0c-4bff-a25e-54c6c91e8924">
+  <name>КипWindows</name>
+  <synonym>
+    <key>ru</key>
+    <value>Windows</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+</mdclass:CommonModule>

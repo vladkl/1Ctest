@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31d116b3-d6e8-47f7-8b47-65738543d31c">
+  <producedTypes>
+    <objectType typeId="35bbafa8-3b19-4b52-9480-4f153f56164f" valueTypeId="dafe3211-0bd9-45bf-bb41-4d1b96f82458"/>
+    <refType typeId="fc2da253-f7a8-46ea-b60a-707854acc462" valueTypeId="fc9b2d70-b92f-4b8a-98fc-becb88c2bae6"/>
+    <selectionType typeId="f127fd23-cb7b-4eb0-a1a7-c191efa7fd8e" valueTypeId="0387297b-df7c-48fb-8990-0d4d59ed7b2b"/>
+    <listType typeId="ea9f075f-2d88-4308-9aa5-3827f3cf2c4a" valueTypeId="70cfc0b2-e898-4131-9a8b-b5b23e0d966f"/>
+    <managerType typeId="813d72a6-b56a-499f-85ac-1f7d1e498eae" valueTypeId="c60b2e33-c3f8-443a-8d4c-ffc2ab90521e"/>
+  </producedTypes>
+  <name>Взаимоблокировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация о взаимоблокировке</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Взаимоблокировка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Взаимоблокировка.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <attributes uuid="bc4c2128-5f0d-4456-a40a-8895415171ed">
+    <name>Граф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граф</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5dc3340b-75c5-4fc1-9f16-41a7317e5455">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72bcf853-be00-4a58-9ac1-b4ce7a251827">
+    <name>МоментВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент времени</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7426ce2-60a1-4703-90ec-4deebcac1bbf">
+    <name>НомерВзаимоблокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер взаимоблокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff0360a5-c779-4dbe-9f5f-4b32a238000e">
+    <name>ТипБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыБлокировок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78f417a0-368e-4a52-b6bf-e2f7eb95c4df">
+    <name>Хеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e79e78ad-d915-4c09-bf2b-159e11059111">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="c3eebbec-c41e-4601-8a70-4cf414e79b83">
+    <producedTypes>
+      <objectType typeId="3290f7cd-41e1-4334-a2de-d2feb2353b00" valueTypeId="4fdca8f8-65fe-41dc-bf84-cfb530facb1d"/>
+      <rowType typeId="5f5502fc-5663-4f4f-b9e1-4ed9e31c57c4" valueTypeId="121fdfb0-ec65-4ed1-a4d3-aa7507624dae"/>
+    </producedTypes>
+    <name>Блокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировки</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="a2b212a8-a7bc-4a20-b1ef-73ad35cbc366">
+      <name>Блокировка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Блокировка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.Блокировка</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="787e919b-829b-46d2-9892-d1ca854be844">
+      <name>БлокирующийПроцесс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Блокирующий процесс</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fb415d4b-030d-4092-b268-f2750e2e6254">
+      <name>Процесс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процесс</value>
+      </synonym>
+      <comment>Идентификатор процесса. Объединяет разные блокировки в одну транзакцию</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f3401e6c-e9b8-409b-8014-a8ebd5b5340f">
+    <producedTypes>
+      <objectType typeId="e0a12616-c6ed-4fdb-8eb8-c4e1a8624197" valueTypeId="778b2df4-dbe3-48d1-abf1-2f9bcd2254e4"/>
+      <rowType typeId="5ece13c8-7419-4e0c-8c10-181e11f8dff1" valueTypeId="f6e952d4-6433-46b4-b9d8-94f086cff4cf"/>
+    </producedTypes>
+    <name>СвойствоПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство процесса</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="503d25b1-b660-48f4-b1e1-60f807564ffa">
+      <name>НомерПроцесса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер процесса</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1bef40cc-f85a-4118-ae0c-6e8553bd6002">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf20f982-8ee3-417c-840d-f5389be7bf0b">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="123911eb-c0f6-45a9-be4f-a6f7abb08180">
+    <name>СтилиXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стили XML</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Document>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b339e21c-0d0a-4b74-99a4-72f4e2b737d8">
+  <producedTypes>
+    <managerType typeId="29f91fab-850e-4852-946e-e7586900f4c5" valueTypeId="dffbdf4b-82cd-4c1e-bec3-3feccddc28a8"/>
+    <valueManagerType typeId="76a802e5-aee1-428d-997f-15bb28a00acf" valueTypeId="00b01b53-3109-4543-b157-63ebb98bd5ac"/>
+  </producedTypes>
+  <name>ПодтверждениеЗакрытияЦУП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрашивать подтверждение при закрытии</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

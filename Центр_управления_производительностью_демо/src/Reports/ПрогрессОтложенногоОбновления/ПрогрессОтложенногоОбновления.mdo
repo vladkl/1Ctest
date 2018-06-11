@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86ebd655-4314-4c83-adcd-c52b046f6c26">
+  <producedTypes>
+    <objectType typeId="350cf017-ecce-42f8-aede-3ec46d151854" valueTypeId="cd0af006-aed4-4b70-ba3f-a54fa3ea6b3d"/>
+    <managerType typeId="e82ad4f4-4858-4c00-80cd-765f0f1079ff" valueTypeId="a62ef367-e738-4b4d-bad7-e360cb4c8eae"/>
+  </producedTypes>
+  <name>ПрогрессОтложенногоОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прогресс отложенного обновления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПрогрессОтложенногоОбновления.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0381d1f1-0390-4787-9fb4-de86aaf0b93a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

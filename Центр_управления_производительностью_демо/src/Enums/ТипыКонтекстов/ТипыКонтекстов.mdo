@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e38f3df6-84a2-440c-917f-930ac28a71c1">
+  <producedTypes>
+    <refType typeId="e135cf79-ed29-41e4-897b-24d03d228d1d" valueTypeId="b2f32f85-c727-45ba-a4c0-fbe8155faace"/>
+    <listType typeId="d39140cf-ba19-4184-93fa-0369ae2bf157" valueTypeId="0e31c421-823f-486e-8d46-aacab822da84"/>
+    <managerType typeId="ea856d11-b9be-4e8a-9763-094893dd2faa" valueTypeId="31f15edb-9ce1-4f6a-b54c-e4f3d0ddee3f"/>
+  </producedTypes>
+  <name>ТипыКонтекстов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контекстов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="22f7df28-f30c-4b3d-b8d8-46250ca600e9">
+    <name>КонтекстИнтерфейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст интерфейса</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="769bb141-258d-48f2-977d-60080806f19b">
+    <name>КонтекстКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст кода</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

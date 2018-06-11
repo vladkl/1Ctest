@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7cb9383-12f3-4612-bcbf-b5d2314c0f0e">
+  <name>СхемаКАОбработкиЗамеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схема КАОбработки замеров</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://v8.1c.ru/v8/pmc-metering-fem-instance</namespace>
+</mdclass:XDTOPackage>

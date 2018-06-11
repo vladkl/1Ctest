@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2405f9f8-6909-4039-9eff-8ea3fbf3edf1">
+  <producedTypes>
+    <refType typeId="6dc88592-75bf-4c02-b4e4-2ba25d9916e3" valueTypeId="049a332b-a0b2-45ef-b4a4-8d5ec0e53886"/>
+    <listType typeId="d0dfa362-6954-448a-b001-880ae713ebbe" valueTypeId="6befbc68-2f67-4ddb-9b2a-e4e234442eb3"/>
+    <managerType typeId="fb772bbc-8901-4fe9-91e9-fe02cd8dc461" valueTypeId="8f7dd4bb-f103-485b-bad8-bbd7934b2ffe"/>
+  </producedTypes>
+  <name>СтатусыПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы процессов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7d234212-8fd6-4855-810d-68710e8ed4e5">
+    <name>ВыполненСОшибками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен с ошибками</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e19e9da0-409b-42c8-8e08-32836a9b9234">
+    <name>ВыполненУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен успешно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d6f98998-4c72-49b6-aba6-7376e0334e1f">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="559c91a8-5fd9-49f7-814a-3ea6a66bb5d3">
+    <name>НеАктивен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не активен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

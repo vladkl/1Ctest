@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ff67004-75ba-4011-890d-27f60990a90e">
+  <name>Стрелочки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стрелочки</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>4</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

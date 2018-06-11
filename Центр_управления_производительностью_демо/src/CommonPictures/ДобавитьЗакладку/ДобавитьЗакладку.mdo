@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7012c69-7308-4e1d-b83e-0e5ccc55c2a4">
+  <name>ДобавитьЗакладку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить закладку</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>14</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

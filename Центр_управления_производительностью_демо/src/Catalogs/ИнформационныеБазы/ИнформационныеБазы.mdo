@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dd13139-5c4e-4d50-8516-98ed4ff993fd">
+  <producedTypes>
+    <objectType typeId="1d128175-67a0-41d5-b3f7-1434a5572da0" valueTypeId="c2e5315a-a527-4ac1-b100-4ddc74469e9b"/>
+    <refType typeId="a0561f02-d02d-4244-b64a-aa8255cfe45b" valueTypeId="884d73a3-cd32-4b23-9ca8-695f72ced936"/>
+    <selectionType typeId="3c73b235-b22a-4f3e-8457-b6a35b3f3782" valueTypeId="f961250e-7541-4bdd-91eb-3cc2443cb04c"/>
+    <listType typeId="4e441902-3563-4b2c-b929-3e8fda11cb53" valueTypeId="99cfea12-957f-4fd5-ae6e-a40ef9ba3d97"/>
+    <managerType typeId="45a2c473-355d-4880-b19a-3ea920d8ec33" valueTypeId="a8c0ba0c-c7f2-417f-8246-706b4117e51a"/>
+  </producedTypes>
+  <name>ИнформационныеБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИБ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИнформационныеБазы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИнформационныеБазы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="db8ea4d2-7dc4-49c3-8c3a-69a6fc9de57d">
+      <name>Наполнитель</name>
+      <description>Наполнитель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИнформационныеБазы.Form.ФормаНастройки</defaultObjectForm>
+  <attributes uuid="15760fbc-2bc9-49bc-b053-0598e637f1e5">
+    <name>COMКоннекторЗарегистрирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>COM-коннектор зарегистрирован</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65a8489e-2b1b-44fb-acbe-a0ef8fcc8b06">
+    <name>АдминистраторКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор кластера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd2629ad-9b03-43ed-9a71-578663fa4390">
+    <name>ВерсияНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия настроек</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60e9c6d0-4cc7-42d3-a20e-9bc086886d0e">
+    <name>ИмяБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы данных</value>
+    </synonym>
+    <comment>Имя базы данных на сервере СУБД</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6bd6cd2-b607-47a5-af1a-8dd65153f183">
+    <name>ИмяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя информационной базы в кластере</value>
+    </synonym>
+    <comment>Имя информационной базы в кластере</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1747afb-b460-4c28-932f-a9a66c6278e1">
+    <name>ИмяПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя ИБ</value>
+    </synonym>
+    <comment>Основной</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10fbbd5d-221f-4605-9bc6-afb0672e746e">
+    <name>ИспользоватьПП1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ПП 1С</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c3c14e4c-36ed-4544-a65f-e4fef21e5a4d">
+    <name>ИспользоватьППАнализВзаимоблокировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ПП Анализ взаимоблокировок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9db07f54-e33d-4200-8bbe-99b14351760a">
+    <name>ИспользоватьППАнализГранулярностиБлокировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ПП Анализ гранулярности блокировок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17339426-2493-49d8-b00e-1f19bb335fcd">
+    <name>ИспользоватьППАнализЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ПП Анализ запросов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ab870ae-2429-4736-897a-03ee0d4be885">
+    <name>ИспользоватьППАнализОжиданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ПП Анализ ожиданий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff587b86-2587-4b39-8c09-85d2b4f2d589">
+    <name>ИспользоватьППАнализСерверныхВызовов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ПП Анализ серверных вызовов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff982ebd-ff1d-4ba5-8a7c-753945183123">
+    <name>ИспользоватьППОСВзаимоблокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ПП ОС Взаимоблокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e71c71b1-dd77-48df-b891-a95e2b92023f">
+    <name>ИспользоватьППОСТаймауты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ПП ОС Таймауты</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44554a02-49ef-4530-a1c2-96b28d908528">
+    <name>ИспользоватьПППроизвольныеСчетчикиОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ПП Произвольные счетчики ОС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="696365d7-2606-48cb-b1ca-0132b3636d45">
+    <name>КаталогТрассировкиЛокальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный для сервера СУБД каталог трассировки</value>
+    </synonym>
+    <comment>Локальный для сервера СУБД каталог трассировки</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cd9043d-1a24-46c7-ab80-eb81b4a556e5">
+    <name>КаталогТрассировкиСетевой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетевой каталог трассировки</value>
+    </synonym>
+    <comment>Сетевой каталог трассировки</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="356e8dd1-951d-40fb-a9ca-03d1d6c0e686">
+    <name>КодВерсииСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код версии СУБД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6286a68-5634-413a-bcd9-5ab1482fc5b4">
+    <name>НазначенаРольProcessAdmin</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначена роль process admin</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7427c24d-e2a1-4191-9c0f-2c6c30f64bda">
+    <name>Настроено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настроено</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="35463862-bc89-4f2b-a3f6-1f2d149d5cab">
+    <name>ПарольАдминистратораКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль администратора кластера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="527c6f01-be94-4d86-9410-e6c2afc984cd">
+    <name>ПарольПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя ИБ</value>
+    </synonym>
+    <comment>Основной</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a3be1b3-b1a5-48a8-9267-9f255854a9cb">
+    <name>ПоказыватьОтладочныеСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать отладочные сообщения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e331905d-0d5a-43de-992c-21795a4a99be">
+    <name>ПортЦентральногоСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт центрального сервера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be59cecb-3f0b-42af-83f9-2f2a18e787a2">
+    <name>РежимУправленияБлокировкойДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим управления блокировкой данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.РежимыУправленияБлокировкойДанных</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b5c21c7-5f14-4ce8-ba12-d9b82b4aa4af">
+    <name>СерверИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер серверов 1С:Предприятия</value>
+    </synonym>
+    <comment>Кластер серверов 1С:Предприятия</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1348d156-36fc-4f1d-81de-cb5c3f96df85">
+    <name>СерверСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер СУБД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f52306ca-7ccc-4378-9f71-4f03ef4db2c2">
+    <name>СпособАутентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ аутентификации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СпособыАутентификации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5b37e36-dfbb-4f4a-b05e-4292832b765b">
+    <name>ТипОССервераСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОС сервера СУБД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыОС</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e040b786-eaff-4c39-bd5b-506490dc8096">
+    <name>ТипСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип СУБД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыСУБД</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4518a6a-a6f0-48a6-9f62-42f66f255ea3">
+    <name>УдалятьТрассировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять трассировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e3fde569-9843-4907-9cf5-3673709a557d">
+    <producedTypes>
+      <objectType typeId="207a1dc2-fbc5-4efd-9d05-d1062c70b186" valueTypeId="8cc65233-8fae-455f-a712-8c9b572a55b0"/>
+      <rowType typeId="933b8e8e-61cd-4701-8250-920f7c280b29" valueTypeId="77c5d84f-bb8d-4a17-bfad-189f49c2aa4a"/>
+    </producedTypes>
+    <name>ИменаКаталоговТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена каталогов ТЖ</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="e7bf8d5b-107f-4cec-bace-b757e0c66ca2">
+      <name>СерверКластера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4a813ad-09cb-43b0-944a-c413f00f562a">
+      <name>Конфигурация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сетевой каталог настроек ТЖ (logcfg.xml)</value>
+      </synonym>
+      <comment>Полный путь файла logcfg.xml</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eef19a23-c12b-4890-9843-00653492a279">
+      <name>Локальный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Локальный каталог сбора данных ТЖ</value>
+      </synonym>
+      <comment>Локальный для сервера 1С:Предприятия каталог технологического журнала</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="40446d67-a4ae-4e6f-b361-af4b95dbf543">
+      <name>Сетевой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сетевой каталог сбора данных ТЖ</value>
+      </synonym>
+      <comment>Сетевой каталог технологического журнала</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="bcfce2bf-59b5-48bb-93ae-feed0806db5a">
+    <producedTypes>
+      <objectType typeId="22d70c5e-e348-40d0-8a13-a4440aaae251" valueTypeId="163e64b7-23c2-49b3-a8e3-a1cbc81fbe69"/>
+      <rowType typeId="7d48f969-18e4-4f0c-8ccf-79bfa1366f88" valueTypeId="66c3d036-5502-410b-9315-6fdee9263d1a"/>
+    </producedTypes>
+    <name>Серверы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серверы</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9952a3d0-2a67-47f3-9987-532c87d72ea3">
+      <name>АгентЦКК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Агент ЦКК</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.АгентыЦКК</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee02a79d-587c-4d67-b421-17de9cbebfa9">
+      <name>Сервер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bb209476-3724-4161-a167-b2f7e4a0e420">
+      <name>СпособСбораСчетчиков</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ сбора счетчиков</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.СпособыСбораСчетчиков</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81aae429-d941-4fef-a5c4-88410306e1d0">
+      <name>ЯзыкОС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Язык ОС</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЯзыкиОС</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="755fa4d2-85f5-4d68-abe8-568e0165f97a">
+    <producedTypes>
+      <objectType typeId="4c00f078-f798-41a1-bdaa-6018ab59d0c4" valueTypeId="8b9ba30f-61e7-4289-bd5f-1cd16aa91cf4"/>
+      <rowType typeId="4ef6b365-dea2-44fa-9fca-71b7cafaad1e" valueTypeId="305414f3-a8ca-4711-a97e-facf9f9a06d0"/>
+    </producedTypes>
+    <name>СтатусыШагов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы шагов</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="cc749693-598a-4ace-a6e9-d93fc0ae533c">
+      <name>ИмяШага</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя шага</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="69428a1b-eaab-4df0-83a5-37639364c78b">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.СтатусыШаговМастераНастройки</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="878b898f-07c8-43bf-92c3-eea86f5a50c3">
+    <producedTypes>
+      <objectType typeId="998a417b-6f77-43f9-91ce-96c8f1bc10b3" valueTypeId="e5491a49-b2b2-4b89-9cd1-d307e16da541"/>
+      <rowType typeId="a9e47c7f-4c1b-4658-8940-ad1528021460" valueTypeId="1174592e-4406-4768-ab48-f95d1669a28d"/>
+    </producedTypes>
+    <name>СчетчикиОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчики ОС</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="aacf4f6d-6e33-44a4-86bc-8e87f90c3741">
+      <name>НомерСтрокиСервера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки сервера</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51c6f0ee-8cb2-4d80-abe5-120049677633">
+      <name>ОписаниеОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание ошибки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fb68f4dc-888d-4686-8f0d-a99de33c8881">
+      <name>Проверен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проверен</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4979681-651d-4fcf-a16b-15fe3e95a712">
+      <name>Счетчик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счетчик</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СчетчикиПроизводительности</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="15561e8a-e3e8-47a5-a7f1-022649984faa">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="75413d5b-3d02-4682-a218-cd41a91ac562">
+    <name>COMСоединитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>COM-соединитель</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="0711f037-0e89-44b8-905c-9b599724c448">
+    <name>АрхитектураЦУП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архитектура ЦУП</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="f540d6b8-4247-492d-be73-0d11df8ac45b">
+    <name>Готово</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готово</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="21468feb-ed96-4b4a-a75a-dd9cf4eb2e17">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="032b047c-b635-4b2a-840d-28d8a8722eb4">
+    <name>Кластер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="af6c0cd4-2713-432b-84b4-f24f0fe07fef">
+    <name>КластерНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер настройка</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="0c1450e2-ac39-4a9a-ae06-97e6c81738d5">
+    <name>ЛокальныеПользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальные пользователи</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="0d8f8d12-30d7-404f-99d2-e75c254131c7">
+    <name>НаименованиеПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование подключения</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="f5acdd41-538e-4b11-b45d-7cd266921e8d">
+    <name>Начало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="4e80fbe8-29b2-493f-9572-84a5436ef9b2">
+    <name>Показатели1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели1 С</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="90b62028-df98-4f50-9ed7-1939a99ea69b">
+    <name>ПоказателиОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели ОС</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="54c33ec7-09d3-4b53-9909-2e103ca326b0">
+    <name>РесурсыИПроцессы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурсы и процессы</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="46914a79-91cd-471c-9268-28699dfb0328">
+    <name>СерверЦУП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер ЦУП</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="57d2b9a0-bdb4-4483-b482-97d9825b4a6a">
+    <name>СерверЦУПИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер ЦУПИБ</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="c5958544-ae74-4e26-9595-0e2da665379a">
+    <name>СерверЦУПКластерИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер ЦУПКластер ИБ</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="33d08860-b12d-44f6-b9c5-24db137a95a4">
+    <name>СерверЦУПТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер ЦУПТЖ</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9dec58c4-8fdf-453a-83f1-784f534f8c45">
+    <name>СерверЦУПТрассировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер ЦУПТрассировки</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="39444684-b0a1-43fe-b8b7-34bbf7fdadf3">
+    <name>СетевыеКаталоги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетевые каталоги</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="21cc7ab7-1f41-4899-af99-a4f0fd407949">
+    <name>СинхронизацияВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация времени</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="ab069fbd-ee39-4933-926b-dd3fa1050c4c">
+    <name>СУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>СУБД</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="82b2ce2e-16be-4183-ab40-d131f3f5e662">
+    <name>ТехнологическийЖурнал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологический журнал</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="6ee206b2-3b61-47e9-923a-1aa08def9f6f">
+    <name>ТипыПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы показателей</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="e9cd4e13-c246-4ca7-a525-7057e985db74">
+    <name>Трассировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трассировки</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="a2a9899c-2051-486a-8e11-d50729e79b4f">
+    <name>ЦентральныйСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Центральный сервер</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:Catalog>

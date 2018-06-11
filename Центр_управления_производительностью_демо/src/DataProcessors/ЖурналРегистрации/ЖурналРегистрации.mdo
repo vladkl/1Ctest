@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aab4e94-a3f2-456c-b790-b963b6a53069">
+  <producedTypes>
+    <objectType typeId="42abcfbf-e870-4db5-93dc-85dfd03273ce" valueTypeId="87a37e34-2877-4237-881f-91edf3681f4b"/>
+    <managerType typeId="265a8530-33f5-403f-924b-c88aca82258b" valueTypeId="e4881957-a642-40df-92a9-1642cbac5946"/>
+  </producedTypes>
+  <name>ЖурналРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал регистрации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЖурналРегистрации.Form.ЖурналРегистрации</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2e98879a-6a30-44b6-a1ea-22ab9ee1cd98">
+    <name>ЖурналРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал регистрации</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f02b83c9-373b-45a8-94af-3fbffedf67b5">
+    <name>ОтборЖурналаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор журнала регистрации</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f23b8ee7-4e1e-4b68-9bcd-77319fd9a6d7">
+    <name>РазделениеДанныхСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделение данных сеанса</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5190e081-ad69-4e54-9ff7-e4973f92ec86">
+    <name>РедакторСоставаСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор состава свойства</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95fbeeca-917b-4094-bcc6-0e028b2f359b">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="40e402ba-423f-4c65-99be-2a17c5de7da8">
+    <name>ЖурналРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал регистрации</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

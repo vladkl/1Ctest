@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f66ce387-a8ca-4bf0-a6f7-8faa1b8d00ec">
+  <name>СостоянияБлокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния блокировок</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

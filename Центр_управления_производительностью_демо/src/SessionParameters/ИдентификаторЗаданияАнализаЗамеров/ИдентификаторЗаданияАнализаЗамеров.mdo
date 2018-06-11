@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="884a54ef-8ef6-4e5c-adab-f161bd3aae7a">
+  <name>ИдентификаторЗаданияАнализаЗамеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор задания анализа замеров</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>UUID</types>
+  </type>
+</mdclass:SessionParameter>

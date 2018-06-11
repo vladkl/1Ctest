@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7572d283-5e55-4057-a33a-8029e8d5b13c">
+  <name>ЛинияТолщина18</name>
+  <synonym>
+    <key>ru</key>
+    <value>Линия толщина 18</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

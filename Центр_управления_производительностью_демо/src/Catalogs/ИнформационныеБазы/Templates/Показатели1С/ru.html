@@ -1,0 +1,9 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><link rel="stylesheet" type="text/css" href="__STYLE__"></link><meta name="GENERATOR" content="MSHTML 8.00.7600.16671"></meta></head><body>
+<h1>Показатели сервера 1С:Предприятия</h1>
+<p>Если в качестве СУБД исследуемой информационной базы используется Microsoft SQL Server, тогда необходимо выполнение следующего требования. Используемый сервером 1С:Предприятия, исследуемой информационной базы, логин базы данных, должен быть членом фиксированной серверной роли "processadmin", для возможности получения информации о блокировках.</p>
+<h4>Настройка</h4>
+<p>1. Откройте SQL Server Management Studio и подключитесь к серверу, на котором находится исследуемая база данных.</p>
+<p>2. Перейдите в раздел "&lt;Instance&gt;\Security\Logins" и откройте свойства логина, используемого сервером 1С:Предприятия, исследуемой базы, для подключения к СУБД:</p>
+<p><img src="_files/SQLProp.png"></img></p>
+<p>3. Откройте страницу "Server Roles" и установите флажок напротив роли "processadmin" и нажмите "ОК":</p>
+<p><img src="_files/ProcessAdmin.png"></img></p></body></html>

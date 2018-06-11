@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87e3bf31-46fc-4ca7-8c8f-01cf5eff8494">
+  <producedTypes>
+    <refType typeId="a47b2a91-a111-4f87-9e56-0ff06be05c3e" valueTypeId="ed5b353c-8839-4bcb-bbc6-92003610015f"/>
+    <listType typeId="eff62f6d-f29f-4d83-91e0-16cf80c66565" valueTypeId="827ce1b3-0dc2-4c2e-a264-d8709f9efefc"/>
+    <managerType typeId="95bc190f-8d49-4bc9-82ff-aaa3fbae6fa8" valueTypeId="612765f5-45ff-451d-9b66-85e6db09b088"/>
+  </producedTypes>
+  <name>ОперацииПозиционирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции позиционирования</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4c4ec0f2-e44b-4f18-92e8-ca5a654da061">
+    <name>ВНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>В начало</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="295ce77f-2658-4eb4-956e-42389b77c0d7">
+    <name>НаСтраницуНазад</name>
+    <synonym>
+      <key>ru</key>
+      <value>На страницу назад</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="52df9b86-2b35-4cbf-a3bb-da8d73f27414">
+    <name>НаШагНазад</name>
+    <synonym>
+      <key>ru</key>
+      <value>На шаг назад</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d80036f8-326c-443e-a671-5a3b4ae4ff0e">
+    <name>НаШагВперед</name>
+    <synonym>
+      <key>ru</key>
+      <value>На шаг вперед</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b2ed6aa0-5b3f-402c-bbef-28a7ec1475bc">
+    <name>НаСтраницуВперед</name>
+    <synonym>
+      <key>ru</key>
+      <value>На страницу вперед</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="59fa74be-e822-403a-8ef2-fb61ddeb7e22">
+    <name>ВКонец</name>
+    <synonym>
+      <key>ru</key>
+      <value>В конец</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e532b0b2-3956-4825-909b-b080cc571330">
+    <name>Произвольно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

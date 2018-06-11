@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6478c74-ff01-42db-a2d4-9104fbbf65f2">
+  <producedTypes>
+    <selectionType typeId="cf46b973-70c7-4ee5-b462-f8b869645e77" valueTypeId="8cce6f84-e2dd-48f9-a957-e2970f4427ac"/>
+    <listType typeId="0a6bbd66-5349-4b03-8d90-7ce1ab66abfa" valueTypeId="bd200a17-9fe7-4c50-9100-7de6f58b8d6c"/>
+    <managerType typeId="6cbdec81-9296-4fa8-980b-c4d897da47a5" valueTypeId="bfba0403-21c9-4b0a-b414-61527f6a2b5b"/>
+    <recordSetType typeId="c2975998-84b7-4117-802c-3546b27151be" valueTypeId="ca14946c-f2af-4223-811a-4558fa2a37c3"/>
+    <recordKeyType typeId="df995851-77ef-4fe0-b01e-a0645c4076a6" valueTypeId="0991d7e7-f8af-4041-bccc-4b86b0a1aa5f"/>
+    <recordType typeId="37f1cf12-423f-467e-8ed5-ad77dce6e2e8" valueTypeId="02e1f669-e548-41b0-a697-cebaba025730"/>
+    <recordManagerType typeId="05e1d853-4859-4153-8be6-0479f856acf2" valueTypeId="79b2e630-c519-4f4a-8beb-ea2af868d5cd"/>
+  </producedTypes>
+  <name>ИсточникиАнализаТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник анализа технологического журнала</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="76eff19b-ed7f-4677-a7ef-b2c2c9157368">
+    <name>БлокирующийПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокирующий процесс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="19edfeb4-5779-4d3d-b57c-29e7226b3828">
+    <name>lkpid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Lkpid</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a11d4e8a-4505-47bb-974d-a09e451c3d14">
+    <name>lksrc</name>
+    <synonym>
+      <key>ru</key>
+      <value>Lksrc</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="17b438bf-6178-4459-bcf4-f0ad5e3faf8e">
+    <name>СоединениеЖертвы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соединение жертвы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ea223ad1-27f0-491a-a14d-880c3e7da50a">
+    <name>МоментВремениЖертвы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент времени жертвы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fc3d8314-e66b-41dc-b021-e5ba21b546ba">
+    <name>НомерВзаимоблокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер взаимоблокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6fa91dd5-82a1-42ed-81ea-7765e4f45779">
+    <name>НомерБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d42f7505-1519-46fd-809b-4184946df217">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Замер</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

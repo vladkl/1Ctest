@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1203f90b-795f-4bb1-ba10-c6c5f768a35d">
+  <producedTypes>
+    <objectType typeId="81e44121-cb99-4d51-a525-c8ec4554f60d" valueTypeId="b30a5aad-7184-42e4-979f-4d8209a65f3e"/>
+    <refType typeId="ea758bd9-03cf-47e9-afdf-81f6f8350f4e" valueTypeId="3acce115-1218-40f2-a291-6323d675596c"/>
+    <selectionType typeId="aca74063-99f9-4264-a78e-24ff4df1b953" valueTypeId="2041a0fb-850b-4eb8-a8ef-59b23eae971e"/>
+    <listType typeId="f3e0db5f-1df5-4879-ae75-bb1a11b919f0" valueTypeId="229d52a6-23df-4298-a3aa-50c0a815f84e"/>
+    <managerType typeId="ab101338-d09b-4b2b-9407-3725575fe253" valueTypeId="96aa0be8-1d19-4649-8cb1-c09879d34deb"/>
+  </producedTypes>
+  <name>Показатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели производительности</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Показатели.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Показатели.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>64</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c5e5f43d-b043-42b4-b6ee-a47b79eae53a">
+      <name>Анализ</name>
+      <description>Анализ</description>
+      <code xsi:type="core:StringValue">
+        <value>_25_A_____</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="2dea4b77-3a8a-4851-8087-19e32e3bd722">
+        <name>АнализВзаимоблокировок1С</name>
+        <description>Анализ взаимоблокировок 1С</description>
+        <code xsi:type="core:StringValue">
+          <value>_32_ADL_1C</value>
+        </code>
+      </content>
+      <content id="2af0a0de-75fd-4703-a4ca-619901840065">
+        <name>АнализВзаимоблокировок</name>
+        <description>Анализ взаимоблокировок MS SQL Server</description>
+        <code xsi:type="core:StringValue">
+          <value>_29_ADL___</value>
+        </code>
+      </content>
+      <content id="4a63b0a1-cb0e-4fb3-be12-d0043c57c16c">
+        <name>АнализЗапросов</name>
+        <description>Анализ запросов</description>
+        <code xsi:type="core:StringValue">
+          <value>_26_AQ____</value>
+        </code>
+      </content>
+      <content id="83edcb1d-971e-4b56-90d6-d8a1f5914ea6">
+        <name>АнализОжиданийНаБлокировках</name>
+        <description>Анализ ожиданий на блокировках</description>
+        <code xsi:type="core:StringValue">
+          <value>_27_AW____</value>
+        </code>
+      </content>
+      <content id="df4ba32c-5b9a-4cea-9280-2f48f25fa21b">
+        <name>АнализСерверныхВызовов</name>
+        <description>Анализ серверных вызовов</description>
+        <code xsi:type="core:StringValue">
+          <value>_33_ASR___</value>
+        </code>
+      </content>
+    </items>
+    <items id="3da856b4-44ad-4143-97a3-2194807f82fa">
+      <name>Взаимоблокировки</name>
+      <description>Взаимоблокировки</description>
+      <code xsi:type="core:StringValue">
+        <value>_23_DL____</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="b7e95660-add4-42a3-b242-1497cc459bc6">
+        <name>КоличествоВзаимоблокировок</name>
+        <description>Количество взаимоблокировок MS SQL Server</description>
+        <code xsi:type="core:StringValue">
+          <value>_24_DLC___</value>
+        </code>
+      </content>
+    </items>
+    <items id="854224ff-9f5b-41bc-aee6-df3a5049929e">
+      <name>Запросы</name>
+      <description>Запросы</description>
+      <code xsi:type="core:StringValue">
+        <value>_01_Q_____</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="335a2d34-05a9-444b-917e-cf3c052654ef">
+        <name>КоличествоВыполняемыхЗапросов</name>
+        <description>Количество выполняемых запросов</description>
+        <code xsi:type="core:StringValue">
+          <value>_05_QC____</value>
+        </code>
+      </content>
+      <content id="f41237d4-5781-4915-b572-a3c1177c6110">
+        <name>МаксимальноеВремяВыполненияЗапроса</name>
+        <description>Максимальное время выполнения запросов</description>
+        <code xsi:type="core:StringValue">
+          <value>_03_QTM___</value>
+        </code>
+      </content>
+      <content id="d5137440-17f8-4825-a27d-f6f8000ee161">
+        <name>СреднееВремяВыполненияЗапроса</name>
+        <description>Среднее время выполнения запросов</description>
+        <code xsi:type="core:StringValue">
+          <value>_04_QTA___</value>
+        </code>
+      </content>
+      <content id="fc1bfdc9-567b-4cc1-9c2c-cee28b15defe">
+        <name>СуммарноеВремяВыполненияЗапросов</name>
+        <description>Суммарное время выполнения запросов</description>
+        <code xsi:type="core:StringValue">
+          <value>_02_QTS___</value>
+        </code>
+      </content>
+    </items>
+    <items id="c744f500-99ea-4aed-90f3-6a0c327868e2">
+      <name>Качество</name>
+      <description>Качество</description>
+      <code xsi:type="core:StringValue">
+        <value>_30_Q_____</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="8fafab67-90a7-4a4e-89ce-d2574c3b390a">
+        <name>ПроблемыСПараллельностьюРаботы</name>
+        <description>Проблемы с параллельностью работы</description>
+        <code xsi:type="core:StringValue">
+          <value>_31_QPP___</value>
+        </code>
+      </content>
+    </items>
+    <items id="e444e634-d0ab-4a61-922f-b2e5c3fb7ee1">
+      <name>ОжиданияНаБлокировках</name>
+      <description>Ожидания на блокировках</description>
+      <code xsi:type="core:StringValue">
+        <value>_06_W_____</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="eb6c1cde-4bff-4f92-b399-1928e6b4c375">
+        <name>ВсеБлокировки</name>
+        <description>Все блокировки</description>
+        <code xsi:type="core:StringValue">
+          <value>_07_WA____</value>
+        </code>
+        <isFolder>true</isFolder>
+        <content id="9f971ca5-a168-49a1-b612-a5e0474b3e47">
+          <name>КоличествоТекущихОжиданийНаБлокировкахСУБДи1С</name>
+          <description>Количество текущих ожиданий на блокировках СУБД и 1С</description>
+          <code xsi:type="core:StringValue">
+            <value>_11_WACDP_</value>
+          </code>
+        </content>
+        <content id="7975e269-3ac4-471e-878c-6e408d22ea14">
+          <name>МаксимальноеВремяОжиданияНаБлокировкеСУБДи1С</name>
+          <description>Максимальное время ожидания на блокировках СУБД и 1С</description>
+          <code xsi:type="core:StringValue">
+            <value>_09_WATMDP</value>
+          </code>
+        </content>
+        <content id="e80ce3ba-d389-4d8d-b499-9e35360c048f">
+          <name>СреднееВремяОжиданияНаБлокировкеСУБДи1С</name>
+          <description>Среднее время ожидания на блокировках СУБД и 1С</description>
+          <code xsi:type="core:StringValue">
+            <value>_10_WATADP</value>
+          </code>
+        </content>
+        <content id="03200b6b-9c28-4482-8b96-e72c6ff6e1c8">
+          <name>СуммарноеВремяОжиданияНаБлокировкахСУБДи1С</name>
+          <description>Суммарное время ожидания на блокировках СУБД и 1С</description>
+          <code xsi:type="core:StringValue">
+            <value>_08_WATSDP</value>
+          </code>
+        </content>
+      </content>
+      <content id="89544f0c-0d6d-4810-aa1b-dbf1b288ba3d">
+        <name>ТолькоБлокировки1С</name>
+        <description>Только блокировки 1С</description>
+        <code xsi:type="core:StringValue">
+          <value>_18_WP____</value>
+        </code>
+        <isFolder>true</isFolder>
+        <content id="01c14fda-52e0-4d24-b890-14301b8a0c11">
+          <name>КоличествоТекущихОжиданийНаБлокировках1С</name>
+          <description>Количество текущих ожиданий на блокировках 1С</description>
+          <code xsi:type="core:StringValue">
+            <value>_22_WPCP__</value>
+          </code>
+        </content>
+        <content id="e7776b5f-dfee-4a87-99ff-e234548563b6">
+          <name>МаксимальноеВремяОжиданияНаБлокировке1С</name>
+          <description>Максимальное время ожидания на блокировках 1С</description>
+          <code xsi:type="core:StringValue">
+            <value>_20_WPTMP_</value>
+          </code>
+        </content>
+        <content id="15f1acd6-5169-48a6-813a-feefb7b19635">
+          <name>СреднееВремяОжиданияНаБлокировке1С</name>
+          <description>Среднее время ожидания на блокировках 1С</description>
+          <code xsi:type="core:StringValue">
+            <value>_21_WPTAP_</value>
+          </code>
+        </content>
+        <content id="42e199f5-5956-4aa5-b1d4-5f20da5121c8">
+          <name>СуммарноеВремяОжиданияНаБлокировках1С</name>
+          <description>Суммарное время ожидания на блокировках 1С</description>
+          <code xsi:type="core:StringValue">
+            <value>_19_WPTSP_</value>
+          </code>
+        </content>
+      </content>
+      <content id="69da7b9c-f4f5-4adc-bf1f-cc4a6b317846">
+        <name>ТолькоБлокировкиСУБД</name>
+        <description>Только блокировки СУБД</description>
+        <code xsi:type="core:StringValue">
+          <value>_12_WD____</value>
+        </code>
+        <isFolder>true</isFolder>
+        <content id="c5f71fb7-7f67-4dc6-8eae-0728520d3473">
+          <name>КоличествоТаймаутов</name>
+          <description>Количество таймаутов</description>
+          <code xsi:type="core:StringValue">
+            <value>_17_WDTC__</value>
+          </code>
+        </content>
+        <content id="cd232095-ec3a-47d8-bc19-3faad0b19b17">
+          <name>КоличествоТекущихОжиданийНаБлокировкахСУБД</name>
+          <description>Количество текущих ожиданий на блокировках СУБД</description>
+          <code xsi:type="core:StringValue">
+            <value>_16_WDCD__</value>
+          </code>
+        </content>
+        <content id="b22bd2d0-0f6b-46c1-bf3f-2ee669cbafe5">
+          <name>МаксимальноеВремяОжиданияНаБлокировкеСУБД</name>
+          <description>Максимальное время ожидания на блокировках СУБД</description>
+          <code xsi:type="core:StringValue">
+            <value>_14_WDTMD_</value>
+          </code>
+        </content>
+        <content id="d8cc9df4-e6f0-4e97-86f1-ca47cbc2caf0">
+          <name>СреднееВремяОжиданияНаБлокировкеСУБД</name>
+          <description>Среднее время ожидания на блокировках СУБД</description>
+          <code xsi:type="core:StringValue">
+            <value>_15_WDTAD_</value>
+          </code>
+        </content>
+        <content id="afe6d506-4261-4426-b533-6d978cc1012e">
+          <name>СуммарноеВремяОжиданияНаБлокировкахСУБД</name>
+          <description>Суммарное время ожидания на блокировках СУБД</description>
+          <code xsi:type="core:StringValue">
+            <value>_13_WDTSD_</value>
+          </code>
+        </content>
+      </content>
+    </items>
+    <items id="d549e763-1e0f-43a4-86f7-ea4c6f8c3413">
+      <name>ПроизводительностьОборудования</name>
+      <description>Производительность оборудования</description>
+      <code xsi:type="core:StringValue">
+        <value>_34_P_____</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="3cb2152a-ccbb-40c6-846d-8e7dd332027b">
+      <name>СерверныеВызовы</name>
+      <description>Серверные вызовы</description>
+      <code xsi:type="core:StringValue">
+        <value>_35_C_____</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="86c6e99e-36c4-4ce1-b880-a92515a10eae">
+        <name>КоличествоВыполняемыхСерверныхВызовов</name>
+        <description>Количество выполняемых серверных вызовов</description>
+        <code xsi:type="core:StringValue">
+          <value>_39_CC____</value>
+        </code>
+      </content>
+      <content id="850b4632-4aae-486a-a094-bdbbba6969d2">
+        <name>МаксимальноеВремяВыполненияСерверногоВызова</name>
+        <description>Максимальное время выполнения серверного вызова</description>
+        <code xsi:type="core:StringValue">
+          <value>_37_СTM___</value>
+        </code>
+      </content>
+      <content id="722c1b38-1850-4b7c-bb71-a63830fac67e">
+        <name>СреднееВремяВыполненияСерверногоВызова</name>
+        <description>Среднее время выполнения серверного вызова</description>
+        <code xsi:type="core:StringValue">
+          <value>_38_CTA___</value>
+        </code>
+      </content>
+      <content id="eb596379-a457-43f7-a697-a79385fc1a7a">
+        <name>СуммарноеВремяВыполненияСерверныхВызовов</name>
+        <description>Суммарное время выполнения серверных вызовов</description>
+        <code xsi:type="core:StringValue">
+          <value>_36_СTS___</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>BothWays</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultObjectForm>Catalog.Показатели.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Показатели.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Показатели.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Показатели.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="6f5d0824-34cc-450c-b3b3-e37749af0864">
+    <name>ГраницаЖК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница желтой и красной зоны</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9a46f8e-0c5b-4a6b-92a9-efea923b83cf">
+    <name>ГраницаЗЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница зеленой и желтой зоны</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="493db0cf-cd6c-4d98-80a0-146d701b16a9">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ЕдиницыИзмерения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d354c217-1ae8-465d-acbc-d690afb578ba">
+    <name>Интерактивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интерактивный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb43f0ad-603d-4213-8050-14f66566e55b">
+    <name>Линия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca36cbec-b1b4-4722-a9ec-4ee3e90bc279">
+    <name>Масштаб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масштаб</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>16</precision>
+        <scale>8</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14f83803-561d-4dda-b6af-9d3314b9486e">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыПоказателей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fea97c85-5e8b-43ca-9788-7694051a3b34">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="96921f0b-30e2-4f9f-94ff-30c2af1221fa">
+    <producedTypes>
+      <objectType typeId="3c9be805-3176-4de2-b3c5-74bc5622cedd" valueTypeId="9301a91c-90fb-404d-9132-d119cb838b46"/>
+      <rowType typeId="cd799807-80e4-4089-9051-74d8284be326" valueTypeId="99e7402a-e3a8-49dc-a9e5-8d4a89a1fddf"/>
+    </producedTypes>
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="c387f265-b446-43ad-ad3a-8e45084f8411">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЯзыкиОС</types>
+        <types>EnumRef.СпособыСбораСчетчиков</types>
+        <types>CatalogRef.СчетчикиПроизводительности</types>
+        <types>CatalogRef.АгентыЦКК</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fa1a3dd1-4c01-4fbe-be8e-30e043a348a3">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e83ffbbe-7d66-49a1-b319-0aeeb1bb7c4b">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>64</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e2adfb9d-4a36-4b88-8caa-543ffaf3951b">
+    <producedTypes>
+      <objectType typeId="e9e69c83-8b1e-4c72-9417-0f9c246099ad" valueTypeId="ba546b1b-9fed-467a-b570-57261ae65c46"/>
+      <rowType typeId="901b2dc0-5523-4f0b-bc1d-84ba55cb2df0" valueTypeId="8bfcf0fa-e116-4427-a251-75c669e137e6"/>
+    </producedTypes>
+    <name>ПоддержкаСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поддержка СУБД</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="b915c7be-4293-4a08-a214-1a5bee035b57">
+      <name>АвтоматическийРежим</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автоматический режим</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="400869d0-2947-4375-96c8-47b35d2341ba">
+      <name>ВерсияСУБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Версия СУБД</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4a1dd1ef-23d0-456d-81bd-95c3efbfbc1c">
+      <name>СмешанныйРежим</name>
+      <synonym>
+        <key>ru</key>
+        <value>Смешанный режим</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="73372b35-cc54-49d0-b6ef-341fa8acd2d1">
+      <name>ТипОС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип ОС</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ТипыОС</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7bb0513b-1449-496c-9f9e-b93501a0e4de">
+      <name>ТипСУБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип СУБД</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ТипыСУБД</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4125343f-cc0c-49b1-957f-86aa4b333123">
+      <name>УправляемыйРежим</name>
+      <synonym>
+        <key>ru</key>
+        <value>Управляемый режим</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ce2b8a99-e572-4a6b-b7bc-cb4c38c0af9f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c23ba757-0659-413f-a3eb-d4dee8eefb25">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="46cda1a2-0625-4e27-b29d-ee92cd6ba91a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a6c1b8a-56be-4451-ae6b-a2a9d51fcfd7">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

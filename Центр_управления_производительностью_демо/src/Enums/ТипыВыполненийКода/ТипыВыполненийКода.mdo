@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b416d415-78fa-48fe-ba62-f4656273beac">
+  <producedTypes>
+    <refType typeId="c032a25d-c0a6-4342-ac6e-d93f5b9d16ea" valueTypeId="c0180024-b1a5-4e12-93ec-5b49ae70c572"/>
+    <listType typeId="f2cdaa41-74bb-4d18-8ed7-18b05f7856b4" valueTypeId="af2e2f8a-6ec4-433e-9f2f-55c303f81ab3"/>
+    <managerType typeId="00e90624-642a-42dc-b5a4-511cfee7936e" valueTypeId="87d44276-5676-4618-a552-89d4165ef985"/>
+  </producedTypes>
+  <name>ТипыВыполненийКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы выполнений кода</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ba13d0b3-815c-431a-9bad-325152eee584">
+    <name>СерверныйВызов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серверный вызов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="83d031c0-dd31-48dc-9e61-6dfe33cb3bb6">
+    <name>УстановкаБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка блокировки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

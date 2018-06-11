@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0721bcd0-c529-42db-bffd-3926a8dd724e">
+  <producedTypes>
+    <refType typeId="7cadb521-766b-4b30-ba84-b23186292838" valueTypeId="39bd0744-d671-405f-bf21-c31ee66da586"/>
+    <listType typeId="ff54db4c-9623-42c6-be5f-29a8c7a426d8" valueTypeId="a91e0e52-01fc-490c-8864-55084f173838"/>
+    <managerType typeId="bb5e30bb-896f-4f98-b379-916b10fcbf83" valueTypeId="428e3b09-8fd5-4662-9205-d298b117362a"/>
+  </producedTypes>
+  <name>ТипыСУБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы СУБД</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="932e534f-31dc-4a38-827c-835a6b29fa9b">
+    <name>MSSQLServer</name>
+    <synonym>
+      <key>ru</key>
+      <value>MS SQL Server</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="fdc7c9cd-e81f-4acd-b87e-4ef4af9b50a2">
+    <name>IBMDB2</name>
+    <synonym>
+      <key>ru</key>
+      <value>IBM DB2</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="440795b7-65a1-4ef3-90a8-942dc88b065d">
+    <name>PostgreSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>PostgreSQL</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0a31620d-32ee-4c59-bcd7-4eab91bb39fb">
+    <name>Oracle</name>
+    <synonym>
+      <key>ru</key>
+      <value>Oracle</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c923c142-cd3c-4af6-9ad0-f7f5ffe9e15b">
+    <name>DBV8DBEng</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файловая</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

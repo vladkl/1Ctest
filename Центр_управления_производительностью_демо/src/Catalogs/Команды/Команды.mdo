@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caa396bd-2c69-4514-b026-fb3c00c05d09">
+  <producedTypes>
+    <objectType typeId="d43b0939-562a-4884-b390-1fbfbb9410b4" valueTypeId="ecb1d9bc-c868-43ed-bdd5-bb2949e74e58"/>
+    <refType typeId="1bf0c42b-0c32-453a-b872-9584e2d3a1f8" valueTypeId="fdb5cf64-1b08-4dfb-8898-40494c770c58"/>
+    <selectionType typeId="e6867991-766d-499a-b1d6-44e717b4f6aa" valueTypeId="08d936b2-6d34-423d-b250-36e6301b7d27"/>
+    <listType typeId="cb2082a1-cd43-4d2e-a5fb-3896dd7c3129" valueTypeId="cf0fccd6-2eb5-4db9-8786-024ee0491c46"/>
+    <managerType typeId="ade6c0d4-d4c9-43ca-a655-e8471ad1dcac" valueTypeId="bb70d5c2-5d56-46ea-8f05-129d26ced067"/>
+  </producedTypes>
+  <name>Команды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Команды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Команды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="7686e3cb-77ea-4741-b6d3-ab6e01991419">
+      <name>Выполнение</name>
+      <description>Выполнение</description>
+      <code xsi:type="core:StringValue">
+        <value>Выполнение                                        </value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="2f207189-d418-46f9-8c79-65a80c0f2a53">
+        <name>ВключитьМонитор</name>
+        <description>Включить монитор</description>
+        <code xsi:type="core:StringValue">
+          <value>ВключитьМонитор                                   </value>
+        </code>
+      </content>
+      <content id="bfb9e70f-8800-454c-b90c-fb26e9cabefa">
+        <name>ВыбратьИБ</name>
+        <description>Выбрать ИБ</description>
+        <code xsi:type="core:StringValue">
+          <value>ВыбратьИБ                                         </value>
+        </code>
+      </content>
+      <content id="2faf38c2-ac92-42f3-a675-9db553218e72">
+        <name>ВыключитьМонитор</name>
+        <description>Выключить монитор</description>
+        <code xsi:type="core:StringValue">
+          <value>ВыключитьМонитор                                  </value>
+        </code>
+      </content>
+      <content id="f889a535-e723-4d0b-b9f7-9f6d2ad56185">
+        <name>ВыполнитьСценарий</name>
+        <description>Выполнить сценарий</description>
+        <code xsi:type="core:StringValue">
+          <value>ВыполнитьСценарий                                 </value>
+        </code>
+      </content>
+      <content id="f32cabbf-3aa0-4f78-8812-daf28c8d4a32">
+        <name>ПодключитьсяКИБ</name>
+        <description>Подключиться к ИБ</description>
+        <code xsi:type="core:StringValue">
+          <value>ПодключитьсяКИБ                                   </value>
+        </code>
+      </content>
+      <content id="14c6d5e7-9f45-4b88-abff-58e581effdb7">
+        <name>ПрерватьВыполнениеСценария</name>
+        <description>Прервать выполнение сценария</description>
+        <code xsi:type="core:StringValue">
+          <value>ПрерватьВыполнениеСценария                        </value>
+        </code>
+      </content>
+      <content id="4c22ca9c-d904-4f2c-9890-6afb67a62342">
+        <name>Стоп</name>
+        <description>Стоп</description>
+        <code xsi:type="core:StringValue">
+          <value>Стоп                                              </value>
+        </code>
+      </content>
+      <content id="519dab9b-a845-4790-bdc7-a3edd51da522">
+        <name>УстановитьЧастотуМониторинга</name>
+        <description>Установить частоту мониторинга</description>
+        <code xsi:type="core:StringValue">
+          <value>УстановитьЧастотуМониторинга                      </value>
+        </code>
+      </content>
+    </items>
+    <items id="d3746cb0-67ec-4a16-a726-6071c4323ee8">
+      <name>ИнтерфейсПользователя</name>
+      <description>Интерфейс пользователя</description>
+      <code xsi:type="core:StringValue">
+        <value>ИнтерфейсПользователя                             </value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="5cbe4e57-85e2-4a21-92a2-c986e9657b13">
+        <name>ДобавитьЗакладку</name>
+        <description>Добавить закладку</description>
+        <code xsi:type="core:StringValue">
+          <value>ДобавитьЗакладку                                  </value>
+        </code>
+      </content>
+      <content id="9c4fe21c-4547-4124-a9cc-5b26fcc541cd">
+        <name>Импортировать</name>
+        <description>Импортировать</description>
+        <code xsi:type="core:StringValue">
+          <value>Импортировать                                     </value>
+        </code>
+      </content>
+      <content id="0bb95660-ad02-4a72-88e2-4d3730c99e07">
+        <name>ОбновитьИнтерфейсПользователя</name>
+        <description>Обновить интерфейс пользователя</description>
+        <code xsi:type="core:StringValue">
+          <value>ОбновитьИнтерфейсПользователя                     </value>
+        </code>
+      </content>
+      <content id="1b6fc5de-57c2-4fdb-b015-58f871d8e02e">
+        <name>СписокЗакладок</name>
+        <description>Список закладок</description>
+        <code xsi:type="core:StringValue">
+          <value>СписокЗакладок                                    </value>
+        </code>
+      </content>
+      <content id="a734bc15-83b6-4510-88a7-d6639bc662a0">
+        <name>Экспортировать</name>
+        <description>Экспортировать</description>
+        <code xsi:type="core:StringValue">
+          <value>Экспортировать                                    </value>
+        </code>
+      </content>
+    </items>
+    <items id="3555343a-8737-44c9-a5f3-ad0c64133d31">
+      <name>Мониторинг</name>
+      <description>Мониторинг</description>
+      <code xsi:type="core:StringValue">
+        <value>Мониторинг                                        </value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="90541b53-9368-4038-ad62-1224da6b42cb">
+        <name>ВключитьМониторинг</name>
+        <description>Включить мониторинг</description>
+        <code xsi:type="core:StringValue">
+          <value>ВключитьМониторинг                                </value>
+        </code>
+      </content>
+      <content id="02f14cf9-5eea-47ff-81ee-5a4dc461d853">
+        <name>ВыключитьМониторинг</name>
+        <description>Выключить мониторинг</description>
+        <code xsi:type="core:StringValue">
+          <value>ВыключитьМониторинг                               </value>
+        </code>
+      </content>
+      <content id="5b53e7a2-c155-448a-b17c-c04393f0a10b">
+        <name>ПодтвердитьВозобновлениеМониторинга</name>
+        <description>Подтвердить возобновление мониторинга</description>
+        <code xsi:type="core:StringValue">
+          <value>ПодтвердитьВозобновлениеМониторинга               </value>
+        </code>
+      </content>
+    </items>
+    <items id="331c4a93-023b-4e3b-998b-bd915485f6db">
+      <name>ПоказателиПроизводительности</name>
+      <description>Показатели производительности</description>
+      <code xsi:type="core:StringValue">
+        <value>ПоказателиПроизводительности                      </value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="14b8989f-fe47-4646-a4f9-2b36bf34c2f4">
+        <name>ВключитьЗаписьЗначенийПП</name>
+        <description>Включить запись значений ПП</description>
+        <code xsi:type="core:StringValue">
+          <value>ВключитьЗаписьЗначенийПП                          </value>
+        </code>
+      </content>
+      <content id="e8f905e9-230d-4860-bb58-8a84516098f6">
+        <name>ВыделитьПоказатель</name>
+        <description>Выделить показатель</description>
+        <code xsi:type="core:StringValue">
+          <value>ВыделитьПоказатель                                </value>
+        </code>
+      </content>
+      <content id="3b4d8407-4723-4f10-869b-e5345562ac2a">
+        <name>ВыделятьПоказатель</name>
+        <description>Выделять показатель</description>
+        <code xsi:type="core:StringValue">
+          <value>ВыделятьПоказатель                                </value>
+        </code>
+      </content>
+      <content id="e8c36b14-4c05-4651-89f0-405468ac810c">
+        <name>ВыключитьЗаписьЗначенийПП</name>
+        <description>Выключить запись значений ПП</description>
+        <code xsi:type="core:StringValue">
+          <value>ВыключитьЗаписьЗначенийПП                         </value>
+        </code>
+      </content>
+      <content id="3113003c-85c7-4ffc-bc9e-05cc9e67c4be">
+        <name>ДобавитьВсеПП</name>
+        <description>Добавить все ПП</description>
+        <code xsi:type="core:StringValue">
+          <value>ДобавитьВсеПП                                     </value>
+        </code>
+      </content>
+      <content id="f3b0bb6f-fbad-4c5c-8157-fd1efd1e47f2">
+        <name>ДобавитьПП</name>
+        <description>Добавить ПП</description>
+        <code xsi:type="core:StringValue">
+          <value>ДобавитьПП                                        </value>
+        </code>
+      </content>
+      <content id="4007c30b-aa0d-4cca-bbaf-4281b3667fcf">
+        <name>ИзменитьПериодАнализа</name>
+        <description>Изменить период анализа</description>
+        <code xsi:type="core:StringValue">
+          <value>ИзменитьПериодАнализа                             </value>
+        </code>
+      </content>
+      <content id="88ab17fa-9ca9-4a71-95ec-7f4134d16862">
+        <name>ИзменитьПП</name>
+        <description>Изменить ПП</description>
+        <code xsi:type="core:StringValue">
+          <value>ИзменитьПП                                        </value>
+        </code>
+      </content>
+      <content id="414a3754-80d5-4fa5-994e-6954fec8e144">
+        <name>УдалитьПП</name>
+        <description>Удалить ПП</description>
+        <code xsi:type="core:StringValue">
+          <value>УдалитьПП                                         </value>
+        </code>
+      </content>
+    </items>
+    <items id="f2817cac-9adf-4dc8-a6c3-b8171c808c8f">
+      <name>Просмотр</name>
+      <description>Просмотр</description>
+      <code xsi:type="core:StringValue">
+        <value>Просмотр                                          </value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="c2e7a950-6a3f-4a6f-8daa-0f83870a7939">
+        <name>ВключитьПросмотр</name>
+        <description>Включить просмотр</description>
+        <code xsi:type="core:StringValue">
+          <value>ВключитьПросмотр                                  </value>
+        </code>
+      </content>
+      <content id="ca3f7069-63bb-4b2f-8231-0c1f8d0d477f">
+        <name>ВыключитьПросмотр</name>
+        <description>Выключить просмотр</description>
+        <code xsi:type="core:StringValue">
+          <value>ВыключитьПросмотр                                 </value>
+        </code>
+      </content>
+      <content id="866837ae-f3eb-45f5-9d62-fe0d222b815c">
+        <name>ИзменитьМасштаб</name>
+        <description>Изменить масштаб</description>
+        <code xsi:type="core:StringValue">
+          <value>ИзменитьМасштаб                                   </value>
+        </code>
+      </content>
+      <content id="d45b4968-f222-4781-90c2-869e0aa828e4">
+        <name>ИзменитьПозицию</name>
+        <description>Изменить позицию</description>
+        <code xsi:type="core:StringValue">
+          <value>ИзменитьПозицию                                   </value>
+        </code>
+      </content>
+      <content id="a2ee0e3b-c7e2-4d82-bce1-5092d6913d5b">
+        <name>ОбновитьПросмотрПоказателей</name>
+        <description>Обновить просмотр показателей</description>
+        <code xsi:type="core:StringValue">
+          <value>ОбновитьПросмотрПоказателей                       </value>
+        </code>
+      </content>
+      <content id="8ce9dded-2cf2-4cd8-88ab-969a5a07cb64">
+        <name>ОбновитьПросмотрПослеЗавершенияАнализа</name>
+        <description>Обновить просмотр после завершения анализа</description>
+        <code xsi:type="core:StringValue">
+          <value>ОбновитьПросмотрПослеЗавершенияАнализа            </value>
+        </code>
+      </content>
+      <content id="d18f818f-1fc3-4203-ac9e-42550a6f383e">
+        <name>ОчиститьИнтервал</name>
+        <description>Очистить интервал</description>
+        <code xsi:type="core:StringValue">
+          <value>ОчиститьИнтервал                                  </value>
+        </code>
+      </content>
+      <content id="329ee58d-c6fa-4027-b640-38d485d8237d">
+        <name>УстановитьИнтервалПросмотра</name>
+        <description>Установить интервал просмотра</description>
+        <code xsi:type="core:StringValue">
+          <value>УстановитьИнтервалПросмотра                       </value>
+        </code>
+      </content>
+      <content id="0af5c4e5-200a-4ed8-b536-a5124e72d498">
+        <name>УстановитьМасштаб</name>
+        <description>Установить масштаб</description>
+        <code xsi:type="core:StringValue">
+          <value>УстановитьМасштаб                                 </value>
+        </code>
+      </content>
+      <content id="9944eef7-b7e3-49b8-bf2e-32b034982346">
+        <name>УстановитьПозицию</name>
+        <description>Установить позицию</description>
+        <code xsi:type="core:StringValue">
+          <value>УстановитьПозицию                                 </value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Команды.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Команды.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="687a7ecf-8a13-4fa5-8d09-b9288b542cb6">
+    <name>РедакторВключитьЗаписьЗначенийПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор включить запись значений ПП</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8c08308-9f80-453b-8245-86e853f0d836">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0e1c55c1-dc69-4963-9c99-e67294778430">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef64066b-da02-45be-979f-60a8c9753bd2">
+  <name>ПолучениеДереваОбработчиковОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение дерева обработчиков обновления</value>
+  </synonym>
+  <comment></comment>
+  <templateType>DataCompositionSchema</templateType>
+</mdclass:CommonTemplate>

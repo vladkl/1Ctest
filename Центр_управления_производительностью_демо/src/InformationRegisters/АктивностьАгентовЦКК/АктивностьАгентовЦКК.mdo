@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6258905-85f1-4203-a234-82e6d6f71080">
+  <producedTypes>
+    <selectionType typeId="8ceccac8-8b72-499e-9a46-d5a3eeb41638" valueTypeId="2a3bf2be-9f03-48de-b048-8d5204f5f836"/>
+    <listType typeId="e87d4724-ce6a-4cec-b09f-af4564fa51c9" valueTypeId="1abc2648-d1ef-4a68-bad8-1f42d496e6ab"/>
+    <managerType typeId="76a1aa57-59bc-4173-b9af-45e4e18549c5" valueTypeId="7b1ee211-1430-46be-be5a-86c85d18593a"/>
+    <recordSetType typeId="6dd376a6-cc01-451a-891c-189ee0d5fdb1" valueTypeId="97838b9a-8003-405b-aa1d-e340999a8e72"/>
+    <recordKeyType typeId="41e24a13-953e-4b5d-9e5c-424fe2a369cc" valueTypeId="6574110c-bed1-46bb-80bd-8af3a380bd20"/>
+    <recordType typeId="584679bd-16d2-46b9-83e2-cee6a79621d4" valueTypeId="46980bdf-eaf8-4aae-b9e2-9182d52442ae"/>
+    <recordManagerType typeId="7e14a3ee-d7ac-45fc-b2b3-d27c4d950b55" valueTypeId="10db2821-e38c-4152-a5a1-67d01d1e6e2e"/>
+  </producedTypes>
+  <name>АктивностьАгентовЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активность агентов ЦКК</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="38312e73-3575-421c-b9ce-4ffdaacf7a3b">
+    <name>ДатаКрайнейАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата крайней активности (UTC)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="95efee0b-8c49-4bcb-bc6d-482aef219d84">
+    <name>АгентЦКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент ЦКК</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.АгентыЦКК</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

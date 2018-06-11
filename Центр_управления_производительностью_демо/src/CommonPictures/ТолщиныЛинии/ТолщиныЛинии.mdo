@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3f17858-471f-4b58-a0bd-cefe1070bd42">
+  <name>ТолщиныЛинии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Толщины линии</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>6</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

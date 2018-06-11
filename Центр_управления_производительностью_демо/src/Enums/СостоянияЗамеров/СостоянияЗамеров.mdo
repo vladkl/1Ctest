@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f16e3b0-dfd2-4e05-a50e-cbddf95d9a89">
+  <producedTypes>
+    <refType typeId="fa2d3caa-92c2-4b00-bdc6-038b79c1e821" valueTypeId="d1a82d49-c2fc-4d61-a743-04f5f9cfa2de"/>
+    <listType typeId="a4aed6a1-1f0d-468f-b1dd-fbef2103285d" valueTypeId="ac662447-a7bb-434f-b849-6cc18925374b"/>
+    <managerType typeId="7941d256-eb27-41a2-8eb9-4300f991ad63" valueTypeId="4cf75e48-41d0-492a-8c39-8580cc29b46c"/>
+  </producedTypes>
+  <name>СостоянияЗамеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния замеров</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="17b6a587-1ae6-4dd7-9bc5-0dec9c9b2caf">
+    <name>Замер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замер</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a47c94f6-9f3b-428f-aba2-0cb21d5dfd6b">
+    <name>ЗамерЗавершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замер завершен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e22029a6-9983-4114-b9dc-ee029fa496db">
+    <name>ПолучениеИсходныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение исходных данных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dce05426-810d-42da-a030-b32bf202c92b">
+    <name>ИсходныеДанныеПолучены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходные данные получены</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d5981266-3035-4975-9695-1c5a9af17d17">
+    <name>ПодготовкаИсходныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовка исходных данных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7e44b087-f4f4-4b40-a8dd-102ad471d310">
+    <name>ИсходныеДанныеПодготовлены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходные данные подготовлены</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8d2c6ae8-e5c2-473f-b41b-f43951a9921a">
+    <name>Анализ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="fd17c493-eb21-4aca-a674-e3f51ac3818d">
+    <name>АнализЗавершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ завершен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

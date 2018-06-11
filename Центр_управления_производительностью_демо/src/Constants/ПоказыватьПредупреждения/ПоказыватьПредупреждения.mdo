@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d20e534d-23db-4679-af88-1611fad85a97">
+  <producedTypes>
+    <managerType typeId="679e4411-9300-42ce-846c-e734feb46d3d" valueTypeId="3dc3c503-ed24-45c5-a46c-35e5392a77c7"/>
+    <valueManagerType typeId="0310cce1-5a37-44b3-bfb5-8db8e6bf4e48" valueTypeId="74d25d38-92a2-4bb8-a9c5-de74a5d2268c"/>
+  </producedTypes>
+  <name>ПоказыватьПредупреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать предупреждения</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

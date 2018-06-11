@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5675659a-2fb6-4591-a896-1db486469e01">
+  <producedTypes>
+    <refType typeId="35d794cc-25d2-4bab-96cf-f3c9c444735d" valueTypeId="4afdc08b-3b26-4cc2-8159-c4b8c8864ffa"/>
+    <listType typeId="078f4c16-edb7-4e11-8b0c-f9232011dcc7" valueTypeId="657e5243-24bb-49a9-832b-2a1c5a9785fe"/>
+    <managerType typeId="a50c63bd-36e1-4d99-bad1-729f968349a7" valueTypeId="a4f35908-a50a-407c-b727-be99232f2b28"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dff8ab6b-6748-4174-9366-0df0d26d2e95">
+    <name>Миллисекунда</name>
+    <synonym>
+      <key>ru</key>
+      <value>мс.</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="961e020a-34cb-4a58-b07b-d37aeca227c9">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>%</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="be414c23-2580-4724-8dee-65acceef6311">
+    <name>Секунда</name>
+    <synonym>
+      <key>ru</key>
+      <value>сек.</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f0829e92-1393-4553-bee1-fdc8bdbd9365">
+    <name>Штука</name>
+    <synonym>
+      <key>ru</key>
+      <value>шт.</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="195c6754-6731-4f70-b4d9-a2e806aff031">
+    <name>ШтукВСекунду</name>
+    <synonym>
+      <key>ru</key>
+      <value>шт./сек.</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ee4280b-9e9f-4205-9247-02419a20329a">
+  <name>ВопросОбУстановкеРасширенияРаботыСФайлами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопрос об установке расширения работы с файлами</value>
+  </synonym>
+  <comment></comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

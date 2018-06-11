@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75d3093c-86c7-4cbb-8041-d3b85a856afb">
+  <producedTypes>
+    <managerType typeId="943b32b1-e365-4b1a-b06d-70ce1457efe3" valueTypeId="67544a1e-8b82-47a6-b195-49feec89e64f"/>
+    <valueManagerType typeId="f815d378-b5d9-47c1-bc18-0bcd34fc0230" valueTypeId="0186423d-abec-4c0f-81f5-333d05150df9"/>
+  </producedTypes>
+  <name>ИнтервалОбновленияПодключенийРП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервал обновления подключений РП</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

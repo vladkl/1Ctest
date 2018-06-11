@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fe42b4c-0f3f-4aac-9671-0bc4fcf5774a">
+  <producedTypes>
+    <refType typeId="286d7c24-b958-41ed-8091-b9523efa92a0" valueTypeId="061bc3fc-32e4-4aa0-9352-a6ee7771e3ae"/>
+    <listType typeId="cccd77b5-5520-4e52-a8ee-9cb4029e344b" valueTypeId="5585e6bc-ab47-4422-b961-d545fdf3e3a6"/>
+    <managerType typeId="25e39050-eb08-4533-8414-257a66bc872a" valueTypeId="1f2f3554-87f3-4e20-88bf-183533e1ccf4"/>
+  </producedTypes>
+  <name>ВидыСовместимостиБлокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды совместимости блокировок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ddc72df9-0677-4743-ab10-e5d74b0d7f44">
+    <name>Совместима</name>
+    <synonym>
+      <key>ru</key>
+      <value>+</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9f84c63a-5525-443f-aba4-1def6d2261b8">
+    <name>Несовместима</name>
+    <synonym>
+      <key>ru</key>
+      <value>-</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d990678d-c12c-4695-a11f-9ffa1f5a90e4">
+    <name>Неизвестно</name>
+    <synonym>
+      <key>ru</key>
+      <value>?</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="56bbe5cb-5da9-46f3-adba-3c1fc34cfb0e">
+    <name>НедопустимоеСочетание</name>
+    <synonym>
+      <key>ru</key>
+      <value>!</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

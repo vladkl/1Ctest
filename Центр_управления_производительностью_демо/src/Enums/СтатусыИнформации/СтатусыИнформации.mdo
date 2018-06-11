@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ea5b40b-ab2f-4c75-8091-66131b8b27d5">
+  <producedTypes>
+    <refType typeId="a90c9bac-ed0d-41bc-b7cd-c2bf761fb996" valueTypeId="b132788f-e1a7-47be-ad87-48cd9d5f4da8"/>
+    <listType typeId="922bfd48-a69a-4b2b-8ac9-be9276958114" valueTypeId="b43f92f7-1009-49da-92fb-2d4884facbda"/>
+    <managerType typeId="c29074e6-c8f3-4201-aa6f-ace0e3015e8d" valueTypeId="6debc0ec-ea33-4a34-bfcb-0e8f65d90a04"/>
+  </producedTypes>
+  <name>СтатусыИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы информации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c65b8c41-487f-4025-bf9c-4f06cf4ffc42">
+    <name>ТочныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точные данные</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0bb75d99-2209-45fd-8e1e-d2eaab1f59c1">
+    <name>Предположение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предположение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87531222-b6ab-4f6c-949c-5eb06e9eb9b3">
+  <producedTypes>
+    <objectType typeId="20aa5de3-b667-4086-bfc2-cfb8bf3fff4f" valueTypeId="1584b886-4152-45c7-b594-748f60c6b5de"/>
+    <managerType typeId="a9257797-14dc-4dc8-821c-445f875fe764" valueTypeId="c3ffc9c2-6f6b-456b-abdd-2f609d5b2bed"/>
+  </producedTypes>
+  <name>РезультатыОбновленияПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты обновления программы</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.РезультатыОбновленияПрограммы.Form.ИндикацияХодаОбновленияИБ</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="65252837-4ac8-4058-b9af-4a15e6a7a3f6">
+    <name>ИндикацияХодаОбновленияИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индикация хода обновления ИБ</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aa6aae4d-0ad6-4c80-86db-a2d7f992ced0">
+    <name>ИндикацияХодаОтложенногоОбновленияИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индикация хода отложенного обновления ИБ</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d596f939-1aaf-43ce-98ee-66041e7f49e1">
+    <name>ОтложенноеОбновлениеНеЗавершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенное обновление не завершено</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4598faed-882a-4ff6-a5e6-09d8e5a28606">
+    <name>ОтложенныеОбработчики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенные обработчики</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a2e9421-2f11-4c54-a95f-bf544d7d886e">
+    <name>ПредупреждениеБезопасности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение безопасности</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="86fb86c0-af5f-4e2a-b5fd-7b6b8e105377">
+    <name>СообщениеОНеудачномОбновлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение о неудачном обновлении</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

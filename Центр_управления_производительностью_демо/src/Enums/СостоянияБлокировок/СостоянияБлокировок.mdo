@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bde43595-3f15-4a16-8ec6-bf7664eb9f3d">
+  <producedTypes>
+    <refType typeId="e59ea3de-3b68-4755-b211-9e44331aa764" valueTypeId="0910ba0e-2f4d-4a6c-8535-641c8ef2ad23"/>
+    <listType typeId="8e588ea0-57d0-47a2-a53f-9351d4e93407" valueTypeId="e531363c-1c8c-420e-9572-f9892335ac60"/>
+    <managerType typeId="2a2328a0-44ca-4db6-b3cc-2da1f830bc5c" valueTypeId="fc9efd2b-26aa-4a3d-ae37-c5c0b8124656"/>
+  </producedTypes>
+  <name>СостоянияБлокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния блокировок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="346dfc0e-5f6d-49ea-a97f-985f12292a78">
+    <name>Ожидание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="20808ac1-8574-4bfd-8b07-216db6303490">
+    <name>Преобразование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преобразование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a1449a82-23aa-4318-93e0-60e6d8dc80f3">
+    <name>Установлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установлена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f575164-60d6-4ec1-9de1-c61c79af425c">
+  <producedTypes>
+    <selectionType typeId="004fee9d-d430-446f-a2fe-96b38ff6c4b6" valueTypeId="919e2671-4778-45e2-92fb-d33bd75c0fa7"/>
+    <listType typeId="87718817-125b-48f4-9972-653a3fe014b5" valueTypeId="7993f84c-3dbe-4996-b8c1-e79e1a19c9ba"/>
+    <managerType typeId="f3419707-8c20-45f5-95b9-f07112a4594d" valueTypeId="34cc3a87-e44b-466e-af57-35d1ad776ba9"/>
+    <recordSetType typeId="ee2fc739-8f22-4b15-8d74-2d65002148e7" valueTypeId="918035ff-19a6-4f69-b98f-c740fefbd91e"/>
+    <recordKeyType typeId="1f08d96b-a6a5-4725-8716-e81735cbfd3d" valueTypeId="bb38069e-c9e0-4761-8c1a-85df7fb1fca7"/>
+    <recordType typeId="18e478fd-b50b-477b-bd45-8c951e3c7832" valueTypeId="c3c2e111-7fca-45f4-9927-7a0636e9b38e"/>
+    <recordManagerType typeId="1dc1aa4c-f8e3-423a-9bae-7c851843ea64" valueTypeId="eb5471dd-7911-49aa-a859-4018c33ee5b8"/>
+  </producedTypes>
+  <name>ТекущиеЗначенияПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие значения производительности</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ТекущиеЗначенияПроизводительности.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="379b63ad-7fe0-4d01-af49-7e227a32253d">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="7d4eba1a-73d2-4683-9511-282563461205">
+    <name>ДатаЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата замера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="fc76e490-6a3e-4eb9-96d7-92508966e32f">
+    <name>АгентЦКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент ЦКК</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.АгентыЦКК</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0ff0e55a-762e-432f-a942-90730aa4d71a">
+    <name>СчетчикПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик производительности</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СчетчикиПроизводительности</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="049cbb4b-5771-4333-b270-0da8a7cc30a1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

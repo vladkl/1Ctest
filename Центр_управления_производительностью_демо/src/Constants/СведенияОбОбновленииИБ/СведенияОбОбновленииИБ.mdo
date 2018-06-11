@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a91237-9513-4a2c-b9f5-e0ef0c3c0d58">
+  <producedTypes>
+    <managerType typeId="fe4d1cf9-5266-4fa1-8acf-3d9d51ad99fa" valueTypeId="18441ebb-3283-473e-a926-02c102aad3d6"/>
+    <valueManagerType typeId="3b0a864e-cf1a-4d08-b9e1-77a80224207d" valueTypeId="06082e19-8392-4735-b059-f197a7a770b8"/>
+  </producedTypes>
+  <name>СведенияОбОбновленииИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения об обновлении ИБ</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Содержит информацию об основном и отложенном циклах обновления.</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

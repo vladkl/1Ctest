@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6ea57fa-b108-4c08-ba10-b7c6a31e178a">
+  <producedTypes>
+    <selectionType typeId="0f135d27-e526-4b66-b596-255aa4bbefa2" valueTypeId="3cdd3df5-d691-4ac6-9f77-b91a2d9b5042"/>
+    <listType typeId="01506f9a-836f-44fa-906b-50696f070ca5" valueTypeId="cf21dc9f-a8a9-4a68-ad33-c9931b387e94"/>
+    <managerType typeId="6f80ad39-ade7-4ec9-b1cf-fbc4805e5dcb" valueTypeId="42528361-fac9-4f63-8067-60274b9c160c"/>
+    <recordSetType typeId="4b5f4c1b-0f57-43e9-b692-6afa91a520d7" valueTypeId="c8fa2f77-b4db-47f8-acce-929e1fe37729"/>
+    <recordKeyType typeId="ec722819-2a4e-4cae-85b6-ac7dcc6924e3" valueTypeId="d62859c9-073c-4d6e-b787-d57bb7e1c372"/>
+    <recordType typeId="cb426ff1-3579-4dc1-a479-6ae63a1ad946" valueTypeId="895e3d4c-e4f9-4042-92bb-0acdb12f2541"/>
+    <recordManagerType typeId="fcd5680b-31c7-4190-acdf-ecd8811d3fb4" valueTypeId="412015a0-7c2b-4516-a3b0-407b7949edda"/>
+  </producedTypes>
+  <name>ИдентификаторыАктивныхСеансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы активных сеансов</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="42097e76-a2ce-4d54-9ee0-dd2c88f40167">
+    <name>ИдентификаторСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сеанса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd3f98cf-5372-4eca-be69-1d2c8f138ff6">
+    <name>НомерСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сеанса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

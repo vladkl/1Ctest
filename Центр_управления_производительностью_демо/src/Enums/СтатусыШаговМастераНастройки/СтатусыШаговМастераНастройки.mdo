@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d78e9b96-7e88-4c4b-b453-dc5d0463fede">
+  <producedTypes>
+    <refType typeId="5e20159d-8873-4962-a0b2-c485638e0148" valueTypeId="83cba961-7220-45f8-81d1-43c5ac5dd201"/>
+    <listType typeId="73fae1d5-df4c-427b-ad6c-f3b02c8bb445" valueTypeId="db1146e3-fad3-4828-bdbf-d3d0a67cee90"/>
+    <managerType typeId="dee5badc-b0b3-4424-b132-eb04b0064d40" valueTypeId="6514be68-78f5-4729-85ed-1cd267138831"/>
+  </producedTypes>
+  <name>СтатусыШаговМастераНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы шагов мастера настройки</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9623e2fe-e11b-469a-bf0b-37c8ec19ba17">
+    <name>НеВыполнялся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выполнялся</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="115253e7-e2dc-4090-b334-282d0bf065f2">
+    <name>НеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не требуется</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9f0de01c-6223-484c-8d65-165f6a473b72">
+    <name>ВыполненУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен успешно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b43089e1-317b-459f-b58a-8472774ec936">
+    <name>ВыполненСОшибкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен с ошибкой</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

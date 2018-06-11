@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b24331d1-020e-4305-af78-7fe6f8aa93e5">
+  <name>ОткрытьЗамер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть замер</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>13</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

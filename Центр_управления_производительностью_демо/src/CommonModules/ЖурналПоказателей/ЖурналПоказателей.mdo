@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e74dc59c-8fb3-4a80-94e0-322653f230a8">
+  <name>ЖурналПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал показателей</value>
+  </synonym>
+  <comment>Журнал показателей производительности</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

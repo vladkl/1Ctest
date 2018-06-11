@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d92d0e34-9637-44f2-8426-d444097b2846">
+  <producedTypes>
+    <selectionType typeId="21017a0a-6824-4ec4-a34a-e2b3f280d025" valueTypeId="85f24ad9-9954-426c-9b3e-9c94202764b9"/>
+    <listType typeId="51632562-fc16-4ce2-b292-97954c9730f1" valueTypeId="a7cbaf16-2c3b-4bbd-9a55-1b47d582d932"/>
+    <managerType typeId="ebaacaa2-4a3b-448a-9a61-525ba8503051" valueTypeId="68bf3aa3-9694-4360-95ec-6bffd16b45d2"/>
+    <recordSetType typeId="3ea755ff-85c8-46ee-a7a0-a05827c8c1cc" valueTypeId="731e44e2-495a-4581-9a56-34650c2223bd"/>
+    <recordKeyType typeId="760189f0-1a1f-401b-9256-668ea7473d44" valueTypeId="2b40cb20-f530-453f-9a43-6ed753ec75e6"/>
+    <recordType typeId="0578bd5f-0b62-4be2-a7d1-91e8db003ed5" valueTypeId="06568b62-4602-4d3a-b3d5-b3d91b8fd617"/>
+    <recordManagerType typeId="9626907d-5cfe-46f5-ad9a-b471d1d3be56" valueTypeId="568936ea-11b7-4fb7-a174-d5a36098b476"/>
+  </producedTypes>
+  <name>ГрафыВзаимоблокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графы взаимоблокировок</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="17879c39-a735-4015-ab7d-773bedb0d78e">
+    <name>Граф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граф</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bc1b9178-e30d-467e-a01c-08e59fb05397">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c50089a3-7732-48ef-b90d-18a5e5be7ed9">
+    <name>МоментВремениСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент времени события</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="81b0526c-ee20-4c59-863a-9a10ad15b4d1">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e2f4d470-dec9-4c69-84d5-21e51e46cf31">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Замер</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

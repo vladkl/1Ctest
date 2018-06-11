@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d82c4fcc-d2ba-4234-be87-7a6b21d876e4">
+  <producedTypes>
+    <managerType typeId="cb3e9398-0400-4f09-bf44-2b1a9cb80eac" valueTypeId="f2e44df0-02d7-4b48-9be6-97c6fdbe21b7"/>
+    <valueManagerType typeId="ae34993c-d802-41d1-8511-88ee07f43f9a" valueTypeId="3848e2bd-683e-4f7b-8eca-a70653da35e1"/>
+  </producedTypes>
+  <name>МасштабПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Масштаб по умолчанию</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.ПредопределенныеМасштабы</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>
